@@ -60,7 +60,7 @@ def main():
     model = YOLO(str(RESULTS / "yolov8s_best.pt"))
     out = {"model": "yolov8s", "kept": kept, "device": gpu, "ultralytics": ultralytics.__version__,
            "torch": torch.__version__, "imgsz": IMG_SIZE, "batch": args.batch,
-           "schedule": "29 epochs of an 80-epoch run (SGD lr0 0.01, mosaic on), then "
+           "schedule": "29 epochs of an 80-epoch run (optimizer=auto picked MuSGD lr0 0.01, mosaic on), then "
                        f"{args.epochs} epochs SGD lr0 0.002 -> 0.0002, mosaic off",
            "finetune_time_s": round(train_time, 1), "params": sum(p.numel() for p in model.model.parameters()),
            **{k: v for k, v in results[kept].items()},

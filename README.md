@@ -67,12 +67,13 @@ cd milestone2_detection
 python make_detection_data.py          # single photos, 2x2 grids and pasted images -> data/
 python build_grids.py --n2 1000 --n3 2000
 python train_detect.py --only yolov8s --epochs 80
+cp results/yolov8s_best.pt results/yolov8s_e29_best.pt   # our run was stopped after epoch 29
 python finetune.py                     # 10 low-lr epochs, keeps the better model on val
 python eval_layouts.py
 python grid_accuracy.py
 ```
 
-Every box was placed by eye with `annotate.py` (6,901 of 6,942 photos boxed, 7,157 boxes). The boxes are already in `outputs/boxes_manual/annotations.json`, so you don't need to annotate again to retrain.
+The boxes were placed by eye with `annotate.py` (6,901 of 6,942 photos boxed, 7,157 boxes). 210 photos kept their boxes from an earlier pilot round, and every box was checked on the review sheets. The boxes are already in `outputs/boxes_manual/annotations.json`, so you don't need to annotate again to retrain.
 
 Test results of the final model (test images are built only from test photos):
 
