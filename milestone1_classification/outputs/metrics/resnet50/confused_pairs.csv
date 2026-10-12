@@ -1,0 +1,11 @@
+rank,true_id,true_name,predicted_id,predicted_name,count,share_of_true_class
+1,OBJ061,Card wallet,OBJ059,Comb,5,0.3571
+2,OBJ012,Computer Keyboard,OBJ016,Sandisk Portable SSD,1,0.0714
+3,OBJ013,Mobile phone,OBJ003,NoteBook,1,0.0714
+4,OBJ013,Mobile phone,OBJ012,Computer Keyboard,1,0.0714
+5,OBJ013,Mobile phone,OBJ021,Toy Bunny,1,0.0714
+6,OBJ017,Controller,OBJ009,Marshall Speaker,1,0.0625
+7,OBJ020,Airpod,OBJ063,Measuring Bottle,1,0.0714
+8,OBJ026,Red Sox Cap,OBJ059,Comb,1,0.0714
+9,OBJ034,Table Tennis Racket,OBJ001,Basketball,1,0.0714
+10,OBJ034,Table Tennis Racket,OBJ026,Red Sox Cap,1,0.0714

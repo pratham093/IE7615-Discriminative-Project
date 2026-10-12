@@ -1,0 +1,5 @@
+model,approach,params_m,train_min,trained_on,best_val_acc,test_top1,test_top1_ci95_low,test_top1_ci95_high,test_top5,test_macro_f1,test_errors
+ResNet-50,transfer learning,23.66,4.8,NVIDIA GeForce RTX 4070 Laptop GPU,0.9835,0.9796,0.969,0.9866,0.9961,0.9789,21
+YOLO11s-cls,transfer learning,5.54,3.2,NVIDIA GeForce RTX 4070 Laptop GPU,0.9747,0.9776,0.9667,0.985,0.9951,0.9771,23
+EfficientNet-B0,transfer learning,4.1,3.7,NVIDIA GeForce RTX 4070 Laptop GPU,0.9786,0.9689,0.9564,0.9779,0.9951,0.968,32
+Custom CNN,from scratch,4.75,10.9,NVIDIA GeForce RTX 4070 Laptop GPU,0.8453,0.822,0.7974,0.8442,0.9543,0.8226,183

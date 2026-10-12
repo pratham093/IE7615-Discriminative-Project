@@ -1,0 +1,162 @@
+{
+  "conf": 0.25,
+  "iou": 0.5,
+  "2x2": {
+    "grids": 600,
+    "objects": 2468,
+    "found_with_right_id": 2354,
+    "found_pct": 95.38,
+    "wrong_detections": 131,
+    "grids_exactly_right": 430,
+    "grids_exactly_right_pct": 71.67,
+    "misses": {
+      "right ID, box off (IoU < 0.5)": 44,
+      "not detected": 67,
+      "wrong ID": 3
+    },
+    "wrong_detection_kinds": {
+      "second box on a found object": 22,
+      "on a labelled object (wrong ID or loose box)": 64,
+      "on no labelled object": 45
+    },
+    "most_missed": [
+      [
+        "OBJ034",
+        11
+      ],
+      [
+        "OBJ045",
+        9
+      ],
+      [
+        "OBJ036",
+        8
+      ],
+      [
+        "OBJ013",
+        8
+      ],
+      [
+        "OBJ016",
+        6
+      ],
+      [
+        "OBJ042",
+        5
+      ],
+      [
+        "OBJ062",
+        5
+      ],
+      [
+        "OBJ065",
+        5
+      ],
+      [
+        "OBJ058",
+        4
+      ],
+      [
+        "OBJ050",
+        4
+      ]
+    ],
+    "most_confused": [
+      [
+        "OBJ046 -> OBJ014",
+        1
+      ],
+      [
+        "OBJ036 -> OBJ005",
+        1
+      ],
+      [
+        "OBJ052 -> OBJ014",
+        1
+      ]
+    ]
+  },
+  "3x3": {
+    "grids": 400,
+    "objects": 3710,
+    "found_with_right_id": 3501,
+    "found_pct": 94.37,
+    "wrong_detections": 257,
+    "grids_exactly_right": 169,
+    "grids_exactly_right_pct": 42.25,
+    "misses": {
+      "not detected": 121,
+      "right ID, box off (IoU < 0.5)": 80,
+      "wrong ID": 8
+    },
+    "wrong_detection_kinds": {
+      "on a labelled object (wrong ID or loose box)": 117,
+      "second box on a found object": 62,
+      "on no labelled object": 78
+    },
+    "most_missed": [
+      [
+        "OBJ034",
+        25
+      ],
+      [
+        "OBJ061",
+        18
+      ],
+      [
+        "OBJ013",
+        14
+      ],
+      [
+        "OBJ057",
+        13
+      ],
+      [
+        "OBJ059",
+        10
+      ],
+      [
+        "OBJ020",
+        9
+      ],
+      [
+        "OBJ014",
+        9
+      ],
+      [
+        "OBJ052",
+        8
+      ],
+      [
+        "OBJ050",
+        8
+      ],
+      [
+        "OBJ016",
+        7
+      ]
+    ],
+    "most_confused": [
+      [
+        "OBJ046 -> OBJ014",
+        3
+      ],
+      [
+        "OBJ060 -> OBJ062",
+        2
+      ],
+      [
+        "OBJ003 -> OBJ013",
+        1
+      ],
+      [
+        "OBJ052 -> OBJ014",
+        1
+      ],
+      [
+        "OBJ003 -> OBJ067",
+        1
+      ]
+    ]
+  }
+}

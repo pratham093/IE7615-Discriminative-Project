@@ -1,0 +1,6 @@
+rank,object_id,object_name,test_images,accuracy,precision,f1,most_common_mistake
+1,OBJ061,Card wallet,14,0.5714,1.0,0.7273,OBJ059 (Comb) x5
+2,OBJ034,Table Tennis Racket,14,0.7143,1.0,0.8333,OBJ062 (Headphones) x1
+3,OBJ013,Mobile phone,14,0.7857,0.9167,0.8462,OBJ012 (Computer Keyboard) x1
+4,OBJ012,Computer Keyboard,14,0.9286,0.9286,0.9286,OBJ016 (Sandisk Portable SSD) x1
+5,OBJ020,Airpod,14,0.9286,0.9286,0.9286,OBJ063 (Measuring Bottle) x1

@@ -1,0 +1,32 @@
+{
+  "model": "yolo11s_cls",
+  "run": "yolo11s_cls_smoke",
+  "smoke_test": true,
+  "hardware": {
+    "device": "mps",
+    "cpu_count": 10,
+    "ram_gb": 17.2,
+    "os": "macOS-27.0-arm64-arm-64bit",
+    "torch": "2.14.1",
+    "gpu": "Apple M4 (MPS)"
+  },
+  "dataloader_workers": 2,
+  "device": "mps",
+  "num_classes": 73,
+  "train_images": 4886,
+  "val_images": 1028,
+  "params_total": 5536521,
+  "pretrained_weights": "yolo11s-cls.pt",
+  "ultralytics": "8.4.173",
+  "batch_size": 64,
+  "epochs_planned": 2,
+  "epochs_run": 2,
+  "early_stopped": false,
+  "best_epoch": 2,
+  "best_val_acc": 0.08366,
+  "best_val_top5": 0.28794,
+  "best_selected_by": "(top1 + top5) / 2 on val",
+  "augmentation": "Ultralytics default classification augmentation",
+  "train_time_s": 29.3,
+  "checkpoint": "outputs/checkpoints/yolo11s_cls_smoke_best.pt"
+}

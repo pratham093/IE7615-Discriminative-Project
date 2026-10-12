@@ -1,0 +1,33 @@
+{
+  "model": "resnet50",
+  "run": "resnet50",
+  "smoke_test": false,
+  "hardware": {
+    "device": "cuda",
+    "cpu_count": 20,
+    "ram_gb": 16.6,
+    "os": "Windows-10-10.0.26200-SP0",
+    "torch": "2.14.1+cu126",
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "gpu_memory_gb": 8.6,
+    "cuda": "12.6"
+  },
+  "dataloader_workers": 8,
+  "device": "cuda",
+  "amp": true,
+  "num_classes": 73,
+  "train_images": 4886,
+  "val_images": 1028,
+  "params_total": 23657609,
+  "params_trainable_last_phase": 15114313,
+  "batch_size": 64,
+  "lr": 0.0001,
+  "head_lr": 0.001,
+  "epochs_planned": 25,
+  "epochs_run": 25,
+  "early_stopped": false,
+  "best_epoch": 19,
+  "best_val_acc": 0.9834630350194552,
+  "train_time_s": 289.6,
+  "checkpoint": "outputs\\checkpoints\\resnet50_best.pt"
+}

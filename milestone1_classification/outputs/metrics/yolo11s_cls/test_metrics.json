@@ -1,0 +1,21 @@
+{
+  "model": "yolo11s_cls",
+  "test_images": 1028,
+  "top1_acc": 0.9776264591439688,
+  "top1_ci95": [
+    0.9667,
+    0.985
+  ],
+  "top5_acc": 0.995136186770428,
+  "top5_ci95": [
+    0.9887,
+    0.9979
+  ],
+  "macro_precision": 0.9803687552887053,
+  "macro_recall": 0.9777397260273972,
+  "macro_f1": 0.977123675076135,
+  "misclassified": 23,
+  "eval_device": "mps",
+  "eval_seconds": 3.3,
+  "checkpoint": "outputs/checkpoints/yolo11s_cls_best.pt"
+}

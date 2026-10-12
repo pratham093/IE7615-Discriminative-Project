@@ -1,0 +1,3603 @@
+{
+  "model": "yolov8s",
+  "kept": "finetuned",
+  "device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "ultralytics": "8.4.173",
+  "torch": "2.14.1+cu126",
+  "imgsz": 672,
+  "batch": 16,
+  "schedule": "29 epochs of an 80-epoch run (SGD lr0 0.01, mosaic on), then 10 epochs SGD lr0 0.002 -> 0.0002, mosaic off",
+  "finetune_time_s": 1915.1,
+  "params": 11163851,
+  "val": {
+    "precision": 0.9548,
+    "recall": 0.9332,
+    "map50": 0.953,
+    "map50_95": 0.7446,
+    "speed_ms_per_image": {
+      "preprocess": 0.8969925834498395,
+      "inference": 7.563701936666982,
+      "loss": 0.00044676531060185506,
+      "postprocess": 1.1207149157797143
+    },
+    "per_class": {
+      "OBJ001": {
+        "images": 115,
+        "instances": 115,
+        "precision": 0.9869,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.9525
+      },
+      "OBJ002": {
+        "images": 130,
+        "instances": 130,
+        "precision": 0.9896,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8155
+      },
+      "OBJ003": {
+        "images": 109,
+        "instances": 109,
+        "precision": 0.8583,
+        "recall": 0.8336,
+        "map50": 0.8054,
+        "map50_95": 0.5448
+      },
+      "OBJ004": {
+        "images": 125,
+        "instances": 125,
+        "precision": 0.9712,
+        "recall": 0.968,
+        "map50": 0.9928,
+        "map50_95": 0.7492
+      },
+      "OBJ005": {
+        "images": 132,
+        "instances": 132,
+        "precision": 0.9897,
+        "recall": 0.9924,
+        "map50": 0.9948,
+        "map50_95": 0.8325
+      },
+      "OBJ006": {
+        "images": 120,
+        "instances": 120,
+        "precision": 0.9988,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7314
+      },
+      "OBJ007": {
+        "images": 115,
+        "instances": 115,
+        "precision": 0.9914,
+        "recall": 0.9961,
+        "map50": 0.995,
+        "map50_95": 0.8609
+      },
+      "OBJ008": {
+        "images": 113,
+        "instances": 121,
+        "precision": 0.8868,
+        "recall": 0.8678,
+        "map50": 0.8858,
+        "map50_95": 0.7564
+      },
+      "OBJ009": {
+        "images": 122,
+        "instances": 122,
+        "precision": 1.0,
+        "recall": 0.8963,
+        "map50": 0.9543,
+        "map50_95": 0.7321
+      },
+      "OBJ010": {
+        "images": 118,
+        "instances": 216,
+        "precision": 0.9738,
+        "recall": 0.8843,
+        "map50": 0.9678,
+        "map50_95": 0.6014
+      },
+      "OBJ011": {
+        "images": 132,
+        "instances": 132,
+        "precision": 0.9259,
+        "recall": 0.9773,
+        "map50": 0.9804,
+        "map50_95": 0.7926
+      },
+      "OBJ012": {
+        "images": 126,
+        "instances": 126,
+        "precision": 0.9648,
+        "recall": 0.8694,
+        "map50": 0.9592,
+        "map50_95": 0.795
+      },
+      "OBJ013": {
+        "images": 122,
+        "instances": 131,
+        "precision": 0.8652,
+        "recall": 0.7023,
+        "map50": 0.792,
+        "map50_95": 0.5071
+      },
+      "OBJ014": {
+        "images": 120,
+        "instances": 120,
+        "precision": 0.7876,
+        "recall": 0.7917,
+        "map50": 0.8536,
+        "map50_95": 0.6286
+      },
+      "OBJ015": {
+        "images": 135,
+        "instances": 135,
+        "precision": 0.9799,
+        "recall": 1.0,
+        "map50": 0.9904,
+        "map50_95": 0.9043
+      },
+      "OBJ016": {
+        "images": 95,
+        "instances": 95,
+        "precision": 0.9402,
+        "recall": 0.9926,
+        "map50": 0.9917,
+        "map50_95": 0.7677
+      },
+      "OBJ017": {
+        "images": 158,
+        "instances": 158,
+        "precision": 0.9931,
+        "recall": 0.9149,
+        "map50": 0.9344,
+        "map50_95": 0.7932
+      },
+      "OBJ018": {
+        "images": 108,
+        "instances": 108,
+        "precision": 1.0,
+        "recall": 0.9944,
+        "map50": 0.995,
+        "map50_95": 0.9142
+      },
+      "OBJ019": {
+        "images": 116,
+        "instances": 116,
+        "precision": 0.9944,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.894
+      },
+      "OBJ020": {
+        "images": 124,
+        "instances": 124,
+        "precision": 1.0,
+        "recall": 0.9765,
+        "map50": 0.995,
+        "map50_95": 0.6748
+      },
+      "OBJ021": {
+        "images": 109,
+        "instances": 109,
+        "precision": 0.9971,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7366
+      },
+      "OBJ022": {
+        "images": 101,
+        "instances": 101,
+        "precision": 0.992,
+        "recall": 0.9802,
+        "map50": 0.9949,
+        "map50_95": 0.7826
+      },
+      "OBJ023": {
+        "images": 122,
+        "instances": 122,
+        "precision": 0.9878,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8047
+      },
+      "OBJ024": {
+        "images": 128,
+        "instances": 128,
+        "precision": 0.9971,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7685
+      },
+      "OBJ025": {
+        "images": 134,
+        "instances": 134,
+        "precision": 0.931,
+        "recall": 0.9254,
+        "map50": 0.9702,
+        "map50_95": 0.793
+      },
+      "OBJ026": {
+        "images": 139,
+        "instances": 139,
+        "precision": 0.9786,
+        "recall": 0.9852,
+        "map50": 0.9838,
+        "map50_95": 0.6496
+      },
+      "OBJ027": {
+        "images": 150,
+        "instances": 151,
+        "precision": 0.9708,
+        "recall": 0.9934,
+        "map50": 0.9941,
+        "map50_95": 0.847
+      },
+      "OBJ028": {
+        "images": 117,
+        "instances": 117,
+        "precision": 0.9052,
+        "recall": 0.906,
+        "map50": 0.9413,
+        "map50_95": 0.7258
+      },
+      "OBJ029": {
+        "images": 125,
+        "instances": 125,
+        "precision": 0.9967,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8952
+      },
+      "OBJ030": {
+        "images": 139,
+        "instances": 139,
+        "precision": 0.9709,
+        "recall": 0.964,
+        "map50": 0.9742,
+        "map50_95": 0.8361
+      },
+      "OBJ031": {
+        "images": 114,
+        "instances": 114,
+        "precision": 0.9865,
+        "recall": 1.0,
+        "map50": 0.9942,
+        "map50_95": 0.6796
+      },
+      "OBJ032": {
+        "images": 108,
+        "instances": 108,
+        "precision": 0.9887,
+        "recall": 1.0,
+        "map50": 0.9927,
+        "map50_95": 0.7784
+      },
+      "OBJ033": {
+        "images": 123,
+        "instances": 123,
+        "precision": 0.999,
+        "recall": 0.9594,
+        "map50": 0.9944,
+        "map50_95": 0.7835
+      },
+      "OBJ034": {
+        "images": 111,
+        "instances": 111,
+        "precision": 0.8386,
+        "recall": 0.7955,
+        "map50": 0.8419,
+        "map50_95": 0.4082
+      },
+      "OBJ035": {
+        "images": 134,
+        "instances": 134,
+        "precision": 0.9847,
+        "recall": 0.9625,
+        "map50": 0.9933,
+        "map50_95": 0.8156
+      },
+      "OBJ036": {
+        "images": 126,
+        "instances": 126,
+        "precision": 0.9984,
+        "recall": 0.8571,
+        "map50": 0.9104,
+        "map50_95": 0.7088
+      },
+      "OBJ037": {
+        "images": 121,
+        "instances": 121,
+        "precision": 0.9966,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8064
+      },
+      "OBJ038": {
+        "images": 116,
+        "instances": 116,
+        "precision": 1.0,
+        "recall": 0.8806,
+        "map50": 0.9505,
+        "map50_95": 0.7208
+      },
+      "OBJ039": {
+        "images": 161,
+        "instances": 163,
+        "precision": 0.9307,
+        "recall": 0.8528,
+        "map50": 0.9329,
+        "map50_95": 0.6165
+      },
+      "OBJ040": {
+        "images": 104,
+        "instances": 104,
+        "precision": 0.9978,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7199
+      },
+      "OBJ041": {
+        "images": 115,
+        "instances": 115,
+        "precision": 0.9892,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7834
+      },
+      "OBJ042": {
+        "images": 119,
+        "instances": 119,
+        "precision": 0.9871,
+        "recall": 0.8319,
+        "map50": 0.854,
+        "map50_95": 0.7292
+      },
+      "OBJ043": {
+        "images": 112,
+        "instances": 112,
+        "precision": 0.9949,
+        "recall": 0.9911,
+        "map50": 0.995,
+        "map50_95": 0.7805
+      },
+      "OBJ044": {
+        "images": 125,
+        "instances": 125,
+        "precision": 1.0,
+        "recall": 0.9666,
+        "map50": 0.9939,
+        "map50_95": 0.734
+      },
+      "OBJ045": {
+        "images": 123,
+        "instances": 123,
+        "precision": 0.8767,
+        "recall": 0.9837,
+        "map50": 0.9565,
+        "map50_95": 0.7023
+      },
+      "OBJ046": {
+        "images": 123,
+        "instances": 123,
+        "precision": 0.9818,
+        "recall": 0.8775,
+        "map50": 0.9777,
+        "map50_95": 0.7766
+      },
+      "OBJ047": {
+        "images": 134,
+        "instances": 134,
+        "precision": 0.97,
+        "recall": 0.9667,
+        "map50": 0.9659,
+        "map50_95": 0.7058
+      },
+      "OBJ048": {
+        "images": 113,
+        "instances": 113,
+        "precision": 0.972,
+        "recall": 0.9823,
+        "map50": 0.9736,
+        "map50_95": 0.5893
+      },
+      "OBJ049": {
+        "images": 103,
+        "instances": 103,
+        "precision": 0.9779,
+        "recall": 0.9709,
+        "map50": 0.9772,
+        "map50_95": 0.641
+      },
+      "OBJ050": {
+        "images": 120,
+        "instances": 120,
+        "precision": 1.0,
+        "recall": 0.9977,
+        "map50": 0.995,
+        "map50_95": 0.7624
+      },
+      "OBJ051": {
+        "images": 119,
+        "instances": 119,
+        "precision": 0.9567,
+        "recall": 0.9664,
+        "map50": 0.9468,
+        "map50_95": 0.7635
+      },
+      "OBJ052": {
+        "images": 136,
+        "instances": 136,
+        "precision": 0.9334,
+        "recall": 0.9926,
+        "map50": 0.988,
+        "map50_95": 0.7772
+      },
+      "OBJ053": {
+        "images": 113,
+        "instances": 113,
+        "precision": 1.0,
+        "recall": 0.988,
+        "map50": 0.995,
+        "map50_95": 0.8799
+      },
+      "OBJ054": {
+        "images": 115,
+        "instances": 115,
+        "precision": 0.8808,
+        "recall": 0.8174,
+        "map50": 0.8319,
+        "map50_95": 0.7173
+      },
+      "OBJ055": {
+        "images": 117,
+        "instances": 117,
+        "precision": 0.9671,
+        "recall": 0.9658,
+        "map50": 0.9927,
+        "map50_95": 0.8318
+      },
+      "OBJ056": {
+        "images": 118,
+        "instances": 118,
+        "precision": 0.9601,
+        "recall": 0.9746,
+        "map50": 0.9728,
+        "map50_95": 0.7733
+      },
+      "OBJ057": {
+        "images": 117,
+        "instances": 136,
+        "precision": 0.8434,
+        "recall": 0.9338,
+        "map50": 0.9506,
+        "map50_95": 0.7696
+      },
+      "OBJ058": {
+        "images": 112,
+        "instances": 112,
+        "precision": 1.0,
+        "recall": 0.9884,
+        "map50": 0.995,
+        "map50_95": 0.755
+      },
+      "OBJ059": {
+        "images": 144,
+        "instances": 155,
+        "precision": 0.7738,
+        "recall": 0.5518,
+        "map50": 0.6861,
+        "map50_95": 0.3939
+      },
+      "OBJ060": {
+        "images": 107,
+        "instances": 107,
+        "precision": 0.7578,
+        "recall": 0.7309,
+        "map50": 0.7425,
+        "map50_95": 0.5925
+      },
+      "OBJ061": {
+        "images": 148,
+        "instances": 151,
+        "precision": 0.8428,
+        "recall": 0.649,
+        "map50": 0.7526,
+        "map50_95": 0.567
+      },
+      "OBJ062": {
+        "images": 130,
+        "instances": 130,
+        "precision": 0.9491,
+        "recall": 0.8692,
+        "map50": 0.8976,
+        "map50_95": 0.6197
+      },
+      "OBJ063": {
+        "images": 116,
+        "instances": 116,
+        "precision": 0.9568,
+        "recall": 0.9828,
+        "map50": 0.9904,
+        "map50_95": 0.7632
+      },
+      "OBJ064": {
+        "images": 122,
+        "instances": 122,
+        "precision": 0.9896,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8536
+      },
+      "OBJ065": {
+        "images": 132,
+        "instances": 132,
+        "precision": 0.8385,
+        "recall": 0.8409,
+        "map50": 0.8393,
+        "map50_95": 0.6656
+      },
+      "OBJ066": {
+        "images": 134,
+        "instances": 134,
+        "precision": 1.0,
+        "recall": 0.8606,
+        "map50": 0.9465,
+        "map50_95": 0.7864
+      },
+      "OBJ067": {
+        "images": 104,
+        "instances": 104,
+        "precision": 0.9173,
+        "recall": 1.0,
+        "map50": 0.9892,
+        "map50_95": 0.7856
+      },
+      "OBJ068": {
+        "images": 133,
+        "instances": 133,
+        "precision": 0.9554,
+        "recall": 0.8196,
+        "map50": 0.9325,
+        "map50_95": 0.6653
+      },
+      "OBJ069": {
+        "images": 131,
+        "instances": 131,
+        "precision": 0.9073,
+        "recall": 0.9313,
+        "map50": 0.9572,
+        "map50_95": 0.7611
+      },
+      "OBJ070": {
+        "images": 113,
+        "instances": 113,
+        "precision": 1.0,
+        "recall": 0.979,
+        "map50": 0.995,
+        "map50_95": 0.7825
+      },
+      "OBJ071": {
+        "images": 133,
+        "instances": 133,
+        "precision": 0.9979,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.903
+      },
+      "OBJ072": {
+        "images": 103,
+        "instances": 103,
+        "precision": 0.9809,
+        "recall": 0.9952,
+        "map50": 0.995,
+        "map50_95": 0.7388
+      },
+      "OBJ073": {
+        "images": 125,
+        "instances": 125,
+        "precision": 0.9969,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8803
+      }
+    }
+  },
+  "test_single": {
+    "precision": 0.9537,
+    "recall": 0.9312,
+    "map50": 0.9538,
+    "map50_95": 0.6863,
+    "speed_ms_per_image": {
+      "preprocess": 1.064908618347338,
+      "inference": 7.669880313262431,
+      "loss": 0.00043398617191220125,
+      "postprocess": 1.027337806212673
+    },
+    "per_class": {
+      "OBJ001": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9093,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8522
+      },
+      "OBJ002": {
+        "images": 16,
+        "instances": 16,
+        "precision": 0.9611,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7568
+      },
+      "OBJ003": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.979,
+        "recall": 0.9286,
+        "map50": 0.925,
+        "map50_95": 0.5389
+      },
+      "OBJ004": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9214,
+        "recall": 1.0,
+        "map50": 0.9903,
+        "map50_95": 0.7052
+      },
+      "OBJ005": {
+        "images": 15,
+        "instances": 15,
+        "precision": 0.9794,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8197
+      },
+      "OBJ006": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9846,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.744
+      },
+      "OBJ007": {
+        "images": 15,
+        "instances": 15,
+        "precision": 1.0,
+        "recall": 0.9401,
+        "map50": 0.995,
+        "map50_95": 0.7625
+      },
+      "OBJ008": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.7886,
+        "recall": 0.8001,
+        "map50": 0.9532,
+        "map50_95": 0.7136
+      },
+      "OBJ009": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9813,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.6585
+      },
+      "OBJ010": {
+        "images": 14,
+        "instances": 28,
+        "precision": 0.9286,
+        "recall": 0.9284,
+        "map50": 0.9344,
+        "map50_95": 0.3708
+      },
+      "OBJ011": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.922,
+        "recall": 0.9286,
+        "map50": 0.8943,
+        "map50_95": 0.5994
+      },
+      "OBJ012": {
+        "images": 14,
+        "instances": 14,
+        "precision": 1.0,
+        "recall": 0.9413,
+        "map50": 0.995,
+        "map50_95": 0.8331
+      },
+      "OBJ013": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9487,
+        "recall": 0.8571,
+        "map50": 0.855,
+        "map50_95": 0.4543
+      },
+      "OBJ014": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.643,
+        "recall": 0.5714,
+        "map50": 0.6611,
+        "map50_95": 0.3829
+      },
+      "OBJ015": {
+        "images": 14,
+        "instances": 14,
+        "precision": 1.0,
+        "recall": 0.901,
+        "map50": 0.9903,
+        "map50_95": 0.6731
+      },
+      "OBJ016": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.991,
+        "recall": 0.8571,
+        "map50": 0.855,
+        "map50_95": 0.5663
+      },
+      "OBJ017": {
+        "images": 16,
+        "instances": 16,
+        "precision": 1.0,
+        "recall": 0.9582,
+        "map50": 0.995,
+        "map50_95": 0.755
+      },
+      "OBJ018": {
+        "images": 14,
+        "instances": 14,
+        "precision": 1.0,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7615
+      },
+      "OBJ019": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9785,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8652
+      },
+      "OBJ020": {
+        "images": 14,
+        "instances": 14,
+        "precision": 1.0,
+        "recall": 0.8625,
+        "map50": 0.9903,
+        "map50_95": 0.6606
+      },
+      "OBJ021": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9879,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.6847
+      },
+      "OBJ022": {
+        "images": 14,
+        "instances": 14,
+        "precision": 1.0,
+        "recall": 0.9704,
+        "map50": 0.995,
+        "map50_95": 0.7625
+      },
+      "OBJ023": {
+        "images": 13,
+        "instances": 13,
+        "precision": 0.9422,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8155
+      },
+      "OBJ024": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9838,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7434
+      },
+      "OBJ025": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9626,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7504
+      },
+      "OBJ026": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9161,
+        "recall": 0.9286,
+        "map50": 0.8589,
+        "map50_95": 0.6496
+      },
+      "OBJ027": {
+        "images": 17,
+        "instances": 18,
+        "precision": 0.9374,
+        "recall": 1.0,
+        "map50": 0.9924,
+        "map50_95": 0.6247
+      },
+      "OBJ028": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9844,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7069
+      },
+      "OBJ029": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9766,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8911
+      },
+      "OBJ030": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9873,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7149
+      },
+      "OBJ031": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.8585,
+        "recall": 0.8671,
+        "map50": 0.9529,
+        "map50_95": 0.5157
+      },
+      "OBJ032": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9189,
+        "recall": 0.9286,
+        "map50": 0.9717,
+        "map50_95": 0.6142
+      },
+      "OBJ033": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9866,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7028
+      },
+      "OBJ034": {
+        "images": 13,
+        "instances": 13,
+        "precision": 0.6451,
+        "recall": 0.4615,
+        "map50": 0.6647,
+        "map50_95": 0.2695
+      },
+      "OBJ035": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9169,
+        "recall": 0.9286,
+        "map50": 0.92,
+        "map50_95": 0.6169
+      },
+      "OBJ036": {
+        "images": 14,
+        "instances": 14,
+        "precision": 1.0,
+        "recall": 0.8021,
+        "map50": 0.925,
+        "map50_95": 0.7804
+      },
+      "OBJ037": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9742,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.6773
+      },
+      "OBJ038": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9924,
+        "recall": 0.9286,
+        "map50": 0.9903,
+        "map50_95": 0.6336
+      },
+      "OBJ039": {
+        "images": 19,
+        "instances": 19,
+        "precision": 0.9726,
+        "recall": 0.8947,
+        "map50": 0.9424,
+        "map50_95": 0.5829
+      },
+      "OBJ040": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9847,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.6748
+      },
+      "OBJ041": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9785,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.708
+      },
+      "OBJ042": {
+        "images": 14,
+        "instances": 14,
+        "precision": 1.0,
+        "recall": 0.832,
+        "map50": 0.855,
+        "map50_95": 0.6115
+      },
+      "OBJ043": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9138,
+        "recall": 0.9286,
+        "map50": 0.92,
+        "map50_95": 0.7051
+      },
+      "OBJ044": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9846,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.6838
+      },
+      "OBJ045": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9473,
+        "recall": 0.8571,
+        "map50": 0.855,
+        "map50_95": 0.6669
+      },
+      "OBJ046": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9218,
+        "recall": 0.8434,
+        "map50": 0.9676,
+        "map50_95": 0.5219
+      },
+      "OBJ047": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.991,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7129
+      },
+      "OBJ048": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9977,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.6057
+      },
+      "OBJ049": {
+        "images": 15,
+        "instances": 15,
+        "precision": 0.9889,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.5944
+      },
+      "OBJ050": {
+        "images": 13,
+        "instances": 13,
+        "precision": 1.0,
+        "recall": 0.8638,
+        "map50": 0.99,
+        "map50_95": 0.7494
+      },
+      "OBJ051": {
+        "images": 18,
+        "instances": 18,
+        "precision": 0.9218,
+        "recall": 1.0,
+        "map50": 0.9924,
+        "map50_95": 0.7722
+      },
+      "OBJ052": {
+        "images": 14,
+        "instances": 14,
+        "precision": 1.0,
+        "recall": 0.767,
+        "map50": 0.8778,
+        "map50_95": 0.6792
+      },
+      "OBJ053": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9783,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8719
+      },
+      "OBJ054": {
+        "images": 13,
+        "instances": 13,
+        "precision": 0.9796,
+        "recall": 0.9231,
+        "map50": 0.925,
+        "map50_95": 0.77
+      },
+      "OBJ055": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9765,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.86
+      },
+      "OBJ056": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9983,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.768
+      },
+      "OBJ057": {
+        "images": 14,
+        "instances": 15,
+        "precision": 0.8757,
+        "recall": 0.9397,
+        "map50": 0.9747,
+        "map50_95": 0.7618
+      },
+      "OBJ058": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9842,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7698
+      },
+      "OBJ059": {
+        "images": 16,
+        "instances": 16,
+        "precision": 0.9719,
+        "recall": 0.8125,
+        "map50": 0.8532,
+        "map50_95": 0.632
+      },
+      "OBJ060": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9988,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7494
+      },
+      "OBJ061": {
+        "images": 16,
+        "instances": 16,
+        "precision": 0.8758,
+        "recall": 0.625,
+        "map50": 0.7313,
+        "map50_95": 0.4743
+      },
+      "OBJ062": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.8453,
+        "recall": 0.7857,
+        "map50": 0.8437,
+        "map50_95": 0.599
+      },
+      "OBJ063": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9787,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.771
+      },
+      "OBJ064": {
+        "images": 14,
+        "instances": 14,
+        "precision": 1.0,
+        "recall": 0.9348,
+        "map50": 0.995,
+        "map50_95": 0.8159
+      },
+      "OBJ065": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.8974,
+        "recall": 0.8571,
+        "map50": 0.8496,
+        "map50_95": 0.4713
+      },
+      "OBJ066": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9316,
+        "recall": 0.9734,
+        "map50": 0.957,
+        "map50_95": 0.7878
+      },
+      "OBJ067": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.993,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8284
+      },
+      "OBJ068": {
+        "images": 13,
+        "instances": 13,
+        "precision": 1.0,
+        "recall": 0.9184,
+        "map50": 0.99,
+        "map50_95": 0.6721
+      },
+      "OBJ069": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9965,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7071
+      },
+      "OBJ070": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9952,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7015
+      },
+      "OBJ071": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9785,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.705
+      },
+      "OBJ072": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.8978,
+        "recall": 0.9286,
+        "map50": 0.9676,
+        "map50_95": 0.6288
+      },
+      "OBJ073": {
+        "images": 14,
+        "instances": 14,
+        "precision": 0.9768,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8567
+      }
+    }
+  },
+  "test_multi": {
+    "precision": 0.9608,
+    "recall": 0.947,
+    "map50": 0.9639,
+    "map50_95": 0.7563,
+    "speed_ms_per_image": {
+      "preprocess": 0.9880679285353315,
+      "inference": 7.629384357132949,
+      "loss": 0.0004937140537159784,
+      "postprocess": 1.0005443573962631
+    },
+    "per_class": {
+      "OBJ001": {
+        "images": 117,
+        "instances": 117,
+        "precision": 0.972,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8875
+      },
+      "OBJ002": {
+        "images": 106,
+        "instances": 108,
+        "precision": 0.9694,
+        "recall": 1.0,
+        "map50": 0.9935,
+        "map50_95": 0.7883
+      },
+      "OBJ003": {
+        "images": 91,
+        "instances": 91,
+        "precision": 0.9827,
+        "recall": 0.9011,
+        "map50": 0.9497,
+        "map50_95": 0.7027
+      },
+      "OBJ004": {
+        "images": 102,
+        "instances": 102,
+        "precision": 0.99,
+        "recall": 0.9751,
+        "map50": 0.9939,
+        "map50_95": 0.7474
+      },
+      "OBJ005": {
+        "images": 121,
+        "instances": 121,
+        "precision": 0.99,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8842
+      },
+      "OBJ006": {
+        "images": 109,
+        "instances": 109,
+        "precision": 1.0,
+        "recall": 0.9832,
+        "map50": 0.995,
+        "map50_95": 0.7913
+      },
+      "OBJ007": {
+        "images": 118,
+        "instances": 119,
+        "precision": 1.0,
+        "recall": 0.9717,
+        "map50": 0.9893,
+        "map50_95": 0.7749
+      },
+      "OBJ008": {
+        "images": 124,
+        "instances": 124,
+        "precision": 0.8792,
+        "recall": 1.0,
+        "map50": 0.9919,
+        "map50_95": 0.8568
+      },
+      "OBJ009": {
+        "images": 117,
+        "instances": 117,
+        "precision": 0.9967,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.6912
+      },
+      "OBJ010": {
+        "images": 87,
+        "instances": 151,
+        "precision": 0.9201,
+        "recall": 0.9073,
+        "map50": 0.9114,
+        "map50_95": 0.5423
+      },
+      "OBJ011": {
+        "images": 116,
+        "instances": 116,
+        "precision": 0.9244,
+        "recall": 0.9397,
+        "map50": 0.9302,
+        "map50_95": 0.721
+      },
+      "OBJ012": {
+        "images": 103,
+        "instances": 103,
+        "precision": 0.9692,
+        "recall": 0.9612,
+        "map50": 0.9882,
+        "map50_95": 0.8299
+      },
+      "OBJ013": {
+        "images": 101,
+        "instances": 101,
+        "precision": 0.9239,
+        "recall": 0.7624,
+        "map50": 0.8242,
+        "map50_95": 0.5149
+      },
+      "OBJ014": {
+        "images": 112,
+        "instances": 112,
+        "precision": 0.7899,
+        "recall": 0.8393,
+        "map50": 0.8338,
+        "map50_95": 0.6024
+      },
+      "OBJ015": {
+        "images": 113,
+        "instances": 113,
+        "precision": 0.996,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7969
+      },
+      "OBJ016": {
+        "images": 105,
+        "instances": 105,
+        "precision": 0.9674,
+        "recall": 0.8473,
+        "map50": 0.9333,
+        "map50_95": 0.6998
+      },
+      "OBJ017": {
+        "images": 99,
+        "instances": 99,
+        "precision": 1.0,
+        "recall": 0.9457,
+        "map50": 0.995,
+        "map50_95": 0.7907
+      },
+      "OBJ018": {
+        "images": 102,
+        "instances": 102,
+        "precision": 0.9992,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7814
+      },
+      "OBJ019": {
+        "images": 103,
+        "instances": 103,
+        "precision": 0.9879,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.9108
+      },
+      "OBJ020": {
+        "images": 118,
+        "instances": 118,
+        "precision": 1.0,
+        "recall": 0.8714,
+        "map50": 0.9483,
+        "map50_95": 0.7116
+      },
+      "OBJ021": {
+        "images": 109,
+        "instances": 109,
+        "precision": 0.9883,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7566
+      },
+      "OBJ022": {
+        "images": 129,
+        "instances": 129,
+        "precision": 0.9991,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8699
+      },
+      "OBJ023": {
+        "images": 107,
+        "instances": 107,
+        "precision": 0.9936,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8247
+      },
+      "OBJ024": {
+        "images": 105,
+        "instances": 105,
+        "precision": 0.9958,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8096
+      },
+      "OBJ025": {
+        "images": 98,
+        "instances": 98,
+        "precision": 0.9643,
+        "recall": 1.0,
+        "map50": 0.9935,
+        "map50_95": 0.8171
+      },
+      "OBJ026": {
+        "images": 114,
+        "instances": 114,
+        "precision": 0.9012,
+        "recall": 0.886,
+        "map50": 0.8872,
+        "map50_95": 0.6887
+      },
+      "OBJ027": {
+        "images": 129,
+        "instances": 137,
+        "precision": 0.9639,
+        "recall": 0.9751,
+        "map50": 0.9923,
+        "map50_95": 0.671
+      },
+      "OBJ028": {
+        "images": 98,
+        "instances": 98,
+        "precision": 0.9966,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8294
+      },
+      "OBJ029": {
+        "images": 111,
+        "instances": 111,
+        "precision": 0.9967,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.9152
+      },
+      "OBJ030": {
+        "images": 102,
+        "instances": 102,
+        "precision": 0.9953,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8866
+      },
+      "OBJ031": {
+        "images": 109,
+        "instances": 109,
+        "precision": 0.9261,
+        "recall": 0.9193,
+        "map50": 0.9239,
+        "map50_95": 0.5963
+      },
+      "OBJ032": {
+        "images": 119,
+        "instances": 119,
+        "precision": 0.9736,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.6719
+      },
+      "OBJ033": {
+        "images": 101,
+        "instances": 101,
+        "precision": 0.9901,
+        "recall": 0.9886,
+        "map50": 0.9947,
+        "map50_95": 0.7741
+      },
+      "OBJ034": {
+        "images": 108,
+        "instances": 108,
+        "precision": 0.7441,
+        "recall": 0.4846,
+        "map50": 0.6301,
+        "map50_95": 0.3544
+      },
+      "OBJ035": {
+        "images": 99,
+        "instances": 99,
+        "precision": 0.9786,
+        "recall": 0.9596,
+        "map50": 0.9558,
+        "map50_95": 0.794
+      },
+      "OBJ036": {
+        "images": 107,
+        "instances": 107,
+        "precision": 0.9887,
+        "recall": 0.8169,
+        "map50": 0.9411,
+        "map50_95": 0.8116
+      },
+      "OBJ037": {
+        "images": 109,
+        "instances": 109,
+        "precision": 0.959,
+        "recall": 1.0,
+        "map50": 0.9906,
+        "map50_95": 0.7548
+      },
+      "OBJ038": {
+        "images": 105,
+        "instances": 105,
+        "precision": 0.9692,
+        "recall": 0.981,
+        "map50": 0.9929,
+        "map50_95": 0.7285
+      },
+      "OBJ039": {
+        "images": 135,
+        "instances": 135,
+        "precision": 0.933,
+        "recall": 0.9704,
+        "map50": 0.9856,
+        "map50_95": 0.6835
+      },
+      "OBJ040": {
+        "images": 111,
+        "instances": 111,
+        "precision": 0.9955,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7601
+      },
+      "OBJ041": {
+        "images": 92,
+        "instances": 92,
+        "precision": 0.941,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8094
+      },
+      "OBJ042": {
+        "images": 118,
+        "instances": 118,
+        "precision": 0.9662,
+        "recall": 0.9152,
+        "map50": 0.9491,
+        "map50_95": 0.7153
+      },
+      "OBJ043": {
+        "images": 101,
+        "instances": 101,
+        "precision": 0.9071,
+        "recall": 0.9208,
+        "map50": 0.8685,
+        "map50_95": 0.6708
+      },
+      "OBJ044": {
+        "images": 101,
+        "instances": 101,
+        "precision": 0.9848,
+        "recall": 1.0,
+        "map50": 0.9949,
+        "map50_95": 0.7425
+      },
+      "OBJ045": {
+        "images": 108,
+        "instances": 108,
+        "precision": 0.894,
+        "recall": 0.8588,
+        "map50": 0.9011,
+        "map50_95": 0.7013
+      },
+      "OBJ046": {
+        "images": 104,
+        "instances": 104,
+        "precision": 0.9684,
+        "recall": 0.8842,
+        "map50": 0.9636,
+        "map50_95": 0.647
+      },
+      "OBJ047": {
+        "images": 125,
+        "instances": 125,
+        "precision": 0.974,
+        "recall": 1.0,
+        "map50": 0.9916,
+        "map50_95": 0.718
+      },
+      "OBJ048": {
+        "images": 96,
+        "instances": 96,
+        "precision": 1.0,
+        "recall": 0.9923,
+        "map50": 0.995,
+        "map50_95": 0.6993
+      },
+      "OBJ049": {
+        "images": 110,
+        "instances": 110,
+        "precision": 0.9942,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7199
+      },
+      "OBJ050": {
+        "images": 117,
+        "instances": 117,
+        "precision": 0.9812,
+        "recall": 0.8904,
+        "map50": 0.9776,
+        "map50_95": 0.7408
+      },
+      "OBJ051": {
+        "images": 122,
+        "instances": 123,
+        "precision": 0.9679,
+        "recall": 1.0,
+        "map50": 0.9948,
+        "map50_95": 0.7919
+      },
+      "OBJ052": {
+        "images": 100,
+        "instances": 100,
+        "precision": 0.8456,
+        "recall": 0.85,
+        "map50": 0.8891,
+        "map50_95": 0.6827
+      },
+      "OBJ053": {
+        "images": 106,
+        "instances": 106,
+        "precision": 0.9864,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8874
+      },
+      "OBJ054": {
+        "images": 100,
+        "instances": 100,
+        "precision": 0.9334,
+        "recall": 0.94,
+        "map50": 0.9492,
+        "map50_95": 0.747
+      },
+      "OBJ055": {
+        "images": 98,
+        "instances": 98,
+        "precision": 0.9975,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8791
+      },
+      "OBJ056": {
+        "images": 108,
+        "instances": 108,
+        "precision": 1.0,
+        "recall": 0.9911,
+        "map50": 0.995,
+        "map50_95": 0.7572
+      },
+      "OBJ057": {
+        "images": 116,
+        "instances": 120,
+        "precision": 0.7693,
+        "recall": 0.8583,
+        "map50": 0.8623,
+        "map50_95": 0.677
+      },
+      "OBJ058": {
+        "images": 115,
+        "instances": 115,
+        "precision": 0.9955,
+        "recall": 0.9565,
+        "map50": 0.9931,
+        "map50_95": 0.7812
+      },
+      "OBJ059": {
+        "images": 114,
+        "instances": 114,
+        "precision": 0.9735,
+        "recall": 0.8684,
+        "map50": 0.9073,
+        "map50_95": 0.6744
+      },
+      "OBJ060": {
+        "images": 110,
+        "instances": 110,
+        "precision": 0.934,
+        "recall": 0.9727,
+        "map50": 0.9745,
+        "map50_95": 0.8216
+      },
+      "OBJ061": {
+        "images": 125,
+        "instances": 127,
+        "precision": 1.0,
+        "recall": 0.7539,
+        "map50": 0.8957,
+        "map50_95": 0.6391
+      },
+      "OBJ062": {
+        "images": 96,
+        "instances": 96,
+        "precision": 0.8775,
+        "recall": 0.8542,
+        "map50": 0.943,
+        "map50_95": 0.7432
+      },
+      "OBJ063": {
+        "images": 109,
+        "instances": 109,
+        "precision": 0.9861,
+        "recall": 0.9908,
+        "map50": 0.9945,
+        "map50_95": 0.8582
+      },
+      "OBJ064": {
+        "images": 90,
+        "instances": 90,
+        "precision": 1.0,
+        "recall": 0.9521,
+        "map50": 0.9948,
+        "map50_95": 0.8424
+      },
+      "OBJ065": {
+        "images": 104,
+        "instances": 104,
+        "precision": 0.9579,
+        "recall": 0.9615,
+        "map50": 0.9594,
+        "map50_95": 0.7423
+      },
+      "OBJ066": {
+        "images": 100,
+        "instances": 100,
+        "precision": 0.9381,
+        "recall": 0.99,
+        "map50": 0.9903,
+        "map50_95": 0.8126
+      },
+      "OBJ067": {
+        "images": 97,
+        "instances": 97,
+        "precision": 0.9772,
+        "recall": 1.0,
+        "map50": 0.9949,
+        "map50_95": 0.8658
+      },
+      "OBJ068": {
+        "images": 116,
+        "instances": 116,
+        "precision": 0.9552,
+        "recall": 0.9052,
+        "map50": 0.9819,
+        "map50_95": 0.7472
+      },
+      "OBJ069": {
+        "images": 108,
+        "instances": 108,
+        "precision": 1.0,
+        "recall": 0.9946,
+        "map50": 0.995,
+        "map50_95": 0.891
+      },
+      "OBJ070": {
+        "images": 100,
+        "instances": 100,
+        "precision": 0.9878,
+        "recall": 1.0,
+        "map50": 0.9944,
+        "map50_95": 0.7657
+      },
+      "OBJ071": {
+        "images": 111,
+        "instances": 111,
+        "precision": 0.991,
+        "recall": 0.9892,
+        "map50": 0.9933,
+        "map50_95": 0.8274
+      },
+      "OBJ072": {
+        "images": 86,
+        "instances": 86,
+        "precision": 0.9513,
+        "recall": 0.9535,
+        "map50": 0.9541,
+        "map50_95": 0.7163
+      },
+      "OBJ073": {
+        "images": 96,
+        "instances": 96,
+        "precision": 0.9888,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.8694
+      }
+    }
+  },
+  "other_model": {
+    "name": "e29",
+    "val": {
+      "precision": 0.9514,
+      "recall": 0.9253,
+      "map50": 0.9503,
+      "map50_95": 0.7391,
+      "speed_ms_per_image": {
+        "preprocess": 0.8742789452286153,
+        "inference": 7.608555253674931,
+        "loss": 0.0004374535718252004,
+        "postprocess": 0.9571299133196836
+      },
+      "per_class": {
+        "OBJ001": {
+          "images": 115,
+          "instances": 115,
+          "precision": 0.9887,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.9538
+        },
+        "OBJ002": {
+          "images": 130,
+          "instances": 130,
+          "precision": 0.9878,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8131
+        },
+        "OBJ003": {
+          "images": 109,
+          "instances": 109,
+          "precision": 0.8341,
+          "recall": 0.8349,
+          "map50": 0.8209,
+          "map50_95": 0.5784
+        },
+        "OBJ004": {
+          "images": 125,
+          "instances": 125,
+          "precision": 0.9667,
+          "recall": 0.9294,
+          "map50": 0.9876,
+          "map50_95": 0.7304
+        },
+        "OBJ005": {
+          "images": 132,
+          "instances": 132,
+          "precision": 0.9835,
+          "recall": 0.9924,
+          "map50": 0.9888,
+          "map50_95": 0.8276
+        },
+        "OBJ006": {
+          "images": 120,
+          "instances": 120,
+          "precision": 0.9749,
+          "recall": 0.9721,
+          "map50": 0.9825,
+          "map50_95": 0.743
+        },
+        "OBJ007": {
+          "images": 115,
+          "instances": 115,
+          "precision": 0.9971,
+          "recall": 0.9913,
+          "map50": 0.995,
+          "map50_95": 0.8618
+        },
+        "OBJ008": {
+          "images": 113,
+          "instances": 121,
+          "precision": 0.8619,
+          "recall": 0.8512,
+          "map50": 0.8839,
+          "map50_95": 0.7316
+        },
+        "OBJ009": {
+          "images": 122,
+          "instances": 122,
+          "precision": 1.0,
+          "recall": 0.8981,
+          "map50": 0.9909,
+          "map50_95": 0.7542
+        },
+        "OBJ010": {
+          "images": 118,
+          "instances": 216,
+          "precision": 0.9697,
+          "recall": 0.89,
+          "map50": 0.9688,
+          "map50_95": 0.5662
+        },
+        "OBJ011": {
+          "images": 132,
+          "instances": 132,
+          "precision": 0.9739,
+          "recall": 0.9697,
+          "map50": 0.9774,
+          "map50_95": 0.8068
+        },
+        "OBJ012": {
+          "images": 126,
+          "instances": 126,
+          "precision": 0.9148,
+          "recall": 0.873,
+          "map50": 0.9333,
+          "map50_95": 0.7827
+        },
+        "OBJ013": {
+          "images": 122,
+          "instances": 131,
+          "precision": 0.9445,
+          "recall": 0.7099,
+          "map50": 0.8006,
+          "map50_95": 0.5019
+        },
+        "OBJ014": {
+          "images": 120,
+          "instances": 120,
+          "precision": 0.742,
+          "recall": 0.825,
+          "map50": 0.8558,
+          "map50_95": 0.6402
+        },
+        "OBJ015": {
+          "images": 135,
+          "instances": 135,
+          "precision": 0.9695,
+          "recall": 0.9852,
+          "map50": 0.9931,
+          "map50_95": 0.9004
+        },
+        "OBJ016": {
+          "images": 95,
+          "instances": 95,
+          "precision": 0.8772,
+          "recall": 0.979,
+          "map50": 0.9641,
+          "map50_95": 0.7447
+        },
+        "OBJ017": {
+          "images": 158,
+          "instances": 158,
+          "precision": 0.9955,
+          "recall": 0.8987,
+          "map50": 0.9336,
+          "map50_95": 0.8008
+        },
+        "OBJ018": {
+          "images": 108,
+          "instances": 108,
+          "precision": 0.999,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.9008
+        },
+        "OBJ019": {
+          "images": 116,
+          "instances": 116,
+          "precision": 0.9906,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8891
+        },
+        "OBJ020": {
+          "images": 124,
+          "instances": 124,
+          "precision": 1.0,
+          "recall": 0.9563,
+          "map50": 0.9942,
+          "map50_95": 0.6592
+        },
+        "OBJ021": {
+          "images": 109,
+          "instances": 109,
+          "precision": 0.9974,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7251
+        },
+        "OBJ022": {
+          "images": 101,
+          "instances": 101,
+          "precision": 0.9709,
+          "recall": 0.9918,
+          "map50": 0.9946,
+          "map50_95": 0.7746
+        },
+        "OBJ023": {
+          "images": 122,
+          "instances": 122,
+          "precision": 0.9953,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8014
+        },
+        "OBJ024": {
+          "images": 128,
+          "instances": 128,
+          "precision": 0.9962,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7834
+        },
+        "OBJ025": {
+          "images": 134,
+          "instances": 134,
+          "precision": 0.9314,
+          "recall": 0.9254,
+          "map50": 0.9658,
+          "map50_95": 0.7965
+        },
+        "OBJ026": {
+          "images": 139,
+          "instances": 139,
+          "precision": 0.9594,
+          "recall": 0.964,
+          "map50": 0.9705,
+          "map50_95": 0.6499
+        },
+        "OBJ027": {
+          "images": 150,
+          "instances": 151,
+          "precision": 0.9694,
+          "recall": 0.9801,
+          "map50": 0.9893,
+          "map50_95": 0.8452
+        },
+        "OBJ028": {
+          "images": 117,
+          "instances": 117,
+          "precision": 0.8574,
+          "recall": 0.8974,
+          "map50": 0.9193,
+          "map50_95": 0.7007
+        },
+        "OBJ029": {
+          "images": 125,
+          "instances": 125,
+          "precision": 0.9976,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8971
+        },
+        "OBJ030": {
+          "images": 139,
+          "instances": 139,
+          "precision": 0.9708,
+          "recall": 0.9569,
+          "map50": 0.9741,
+          "map50_95": 0.8196
+        },
+        "OBJ031": {
+          "images": 114,
+          "instances": 114,
+          "precision": 0.97,
+          "recall": 0.9912,
+          "map50": 0.9896,
+          "map50_95": 0.6878
+        },
+        "OBJ032": {
+          "images": 108,
+          "instances": 108,
+          "precision": 0.9649,
+          "recall": 0.9907,
+          "map50": 0.9935,
+          "map50_95": 0.7699
+        },
+        "OBJ033": {
+          "images": 123,
+          "instances": 123,
+          "precision": 0.9745,
+          "recall": 0.9312,
+          "map50": 0.9878,
+          "map50_95": 0.7899
+        },
+        "OBJ034": {
+          "images": 111,
+          "instances": 111,
+          "precision": 0.886,
+          "recall": 0.7001,
+          "map50": 0.8268,
+          "map50_95": 0.4292
+        },
+        "OBJ035": {
+          "images": 134,
+          "instances": 134,
+          "precision": 0.9415,
+          "recall": 0.9552,
+          "map50": 0.9756,
+          "map50_95": 0.8008
+        },
+        "OBJ036": {
+          "images": 126,
+          "instances": 126,
+          "precision": 1.0,
+          "recall": 0.8585,
+          "map50": 0.9032,
+          "map50_95": 0.6996
+        },
+        "OBJ037": {
+          "images": 121,
+          "instances": 121,
+          "precision": 0.9967,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7941
+        },
+        "OBJ038": {
+          "images": 116,
+          "instances": 116,
+          "precision": 0.9704,
+          "recall": 0.8966,
+          "map50": 0.9209,
+          "map50_95": 0.6898
+        },
+        "OBJ039": {
+          "images": 161,
+          "instances": 163,
+          "precision": 0.9112,
+          "recall": 0.8098,
+          "map50": 0.9113,
+          "map50_95": 0.6166
+        },
+        "OBJ040": {
+          "images": 104,
+          "instances": 104,
+          "precision": 0.9869,
+          "recall": 1.0,
+          "map50": 0.9949,
+          "map50_95": 0.7319
+        },
+        "OBJ041": {
+          "images": 115,
+          "instances": 115,
+          "precision": 0.9898,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7892
+        },
+        "OBJ042": {
+          "images": 119,
+          "instances": 119,
+          "precision": 0.9628,
+          "recall": 0.8319,
+          "map50": 0.8672,
+          "map50_95": 0.739
+        },
+        "OBJ043": {
+          "images": 112,
+          "instances": 112,
+          "precision": 0.9768,
+          "recall": 0.9911,
+          "map50": 0.9947,
+          "map50_95": 0.7678
+        },
+        "OBJ044": {
+          "images": 125,
+          "instances": 125,
+          "precision": 1.0,
+          "recall": 0.9534,
+          "map50": 0.9937,
+          "map50_95": 0.7336
+        },
+        "OBJ045": {
+          "images": 123,
+          "instances": 123,
+          "precision": 0.9543,
+          "recall": 0.9837,
+          "map50": 0.9932,
+          "map50_95": 0.7492
+        },
+        "OBJ046": {
+          "images": 123,
+          "instances": 123,
+          "precision": 0.9809,
+          "recall": 0.8699,
+          "map50": 0.9403,
+          "map50_95": 0.7538
+        },
+        "OBJ047": {
+          "images": 134,
+          "instances": 134,
+          "precision": 0.9696,
+          "recall": 0.953,
+          "map50": 0.9673,
+          "map50_95": 0.7077
+        },
+        "OBJ048": {
+          "images": 113,
+          "instances": 113,
+          "precision": 0.9738,
+          "recall": 0.9883,
+          "map50": 0.993,
+          "map50_95": 0.5747
+        },
+        "OBJ049": {
+          "images": 103,
+          "instances": 103,
+          "precision": 0.98,
+          "recall": 0.9491,
+          "map50": 0.9781,
+          "map50_95": 0.6462
+        },
+        "OBJ050": {
+          "images": 120,
+          "instances": 120,
+          "precision": 0.944,
+          "recall": 0.984,
+          "map50": 0.9931,
+          "map50_95": 0.7359
+        },
+        "OBJ051": {
+          "images": 119,
+          "instances": 119,
+          "precision": 0.966,
+          "recall": 0.9748,
+          "map50": 0.9653,
+          "map50_95": 0.7252
+        },
+        "OBJ052": {
+          "images": 136,
+          "instances": 136,
+          "precision": 0.9281,
+          "recall": 0.9632,
+          "map50": 0.9692,
+          "map50_95": 0.7173
+        },
+        "OBJ053": {
+          "images": 113,
+          "instances": 113,
+          "precision": 0.9986,
+          "recall": 0.9912,
+          "map50": 0.995,
+          "map50_95": 0.8873
+        },
+        "OBJ054": {
+          "images": 115,
+          "instances": 115,
+          "precision": 0.8592,
+          "recall": 0.8087,
+          "map50": 0.819,
+          "map50_95": 0.6661
+        },
+        "OBJ055": {
+          "images": 117,
+          "instances": 117,
+          "precision": 0.9323,
+          "recall": 0.9658,
+          "map50": 0.9872,
+          "map50_95": 0.8253
+        },
+        "OBJ056": {
+          "images": 118,
+          "instances": 118,
+          "precision": 0.9637,
+          "recall": 0.9746,
+          "map50": 0.9732,
+          "map50_95": 0.7726
+        },
+        "OBJ057": {
+          "images": 117,
+          "instances": 136,
+          "precision": 0.8656,
+          "recall": 0.8997,
+          "map50": 0.9565,
+          "map50_95": 0.7446
+        },
+        "OBJ058": {
+          "images": 112,
+          "instances": 112,
+          "precision": 1.0,
+          "recall": 0.9996,
+          "map50": 0.995,
+          "map50_95": 0.7843
+        },
+        "OBJ059": {
+          "images": 144,
+          "instances": 155,
+          "precision": 0.7594,
+          "recall": 0.5703,
+          "map50": 0.6499,
+          "map50_95": 0.3563
+        },
+        "OBJ060": {
+          "images": 107,
+          "instances": 107,
+          "precision": 0.8034,
+          "recall": 0.729,
+          "map50": 0.7607,
+          "map50_95": 0.5936
+        },
+        "OBJ061": {
+          "images": 148,
+          "instances": 151,
+          "precision": 0.818,
+          "recall": 0.6556,
+          "map50": 0.754,
+          "map50_95": 0.573
+        },
+        "OBJ062": {
+          "images": 130,
+          "instances": 130,
+          "precision": 0.9519,
+          "recall": 0.8231,
+          "map50": 0.8843,
+          "map50_95": 0.6141
+        },
+        "OBJ063": {
+          "images": 116,
+          "instances": 116,
+          "precision": 0.9297,
+          "recall": 0.931,
+          "map50": 0.9875,
+          "map50_95": 0.7637
+        },
+        "OBJ064": {
+          "images": 122,
+          "instances": 122,
+          "precision": 0.9973,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8596
+        },
+        "OBJ065": {
+          "images": 132,
+          "instances": 132,
+          "precision": 0.8299,
+          "recall": 0.8258,
+          "map50": 0.8399,
+          "map50_95": 0.6281
+        },
+        "OBJ066": {
+          "images": 134,
+          "instances": 134,
+          "precision": 0.9913,
+          "recall": 0.8529,
+          "map50": 0.9148,
+          "map50_95": 0.7433
+        },
+        "OBJ067": {
+          "images": 104,
+          "instances": 104,
+          "precision": 0.9766,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.775
+        },
+        "OBJ068": {
+          "images": 133,
+          "instances": 133,
+          "precision": 0.9777,
+          "recall": 0.8196,
+          "map50": 0.927,
+          "map50_95": 0.663
+        },
+        "OBJ069": {
+          "images": 131,
+          "instances": 131,
+          "precision": 0.9689,
+          "recall": 0.9084,
+          "map50": 0.9698,
+          "map50_95": 0.7628
+        },
+        "OBJ070": {
+          "images": 113,
+          "instances": 113,
+          "precision": 1.0,
+          "recall": 0.9818,
+          "map50": 0.995,
+          "map50_95": 0.7905
+        },
+        "OBJ071": {
+          "images": 133,
+          "instances": 133,
+          "precision": 0.9983,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8776
+        },
+        "OBJ072": {
+          "images": 103,
+          "instances": 103,
+          "precision": 0.9901,
+          "recall": 0.9705,
+          "map50": 0.9919,
+          "map50_95": 0.7571
+        },
+        "OBJ073": {
+          "images": 125,
+          "instances": 125,
+          "precision": 0.9925,
+          "recall": 0.992,
+          "map50": 0.995,
+          "map50_95": 0.8833
+        }
+      }
+    },
+    "test_single": {
+      "precision": 0.9306,
+      "recall": 0.9166,
+      "map50": 0.9457,
+      "map50_95": 0.6788,
+      "speed_ms_per_image": {
+        "preprocess": 0.9051342799221544,
+        "inference": 7.777143486530997,
+        "loss": 0.000555435971819397,
+        "postprocess": 0.9896616063999281
+      },
+      "per_class": {
+        "OBJ001": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9598,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8759
+        },
+        "OBJ002": {
+          "images": 16,
+          "instances": 16,
+          "precision": 0.9633,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.767
+        },
+        "OBJ003": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.911,
+          "recall": 1.0,
+          "map50": 0.9857,
+          "map50_95": 0.6237
+        },
+        "OBJ004": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9814,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.6598
+        },
+        "OBJ005": {
+          "images": 15,
+          "instances": 15,
+          "precision": 0.936,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8142
+        },
+        "OBJ006": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9819,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7085
+        },
+        "OBJ007": {
+          "images": 15,
+          "instances": 15,
+          "precision": 1.0,
+          "recall": 0.9736,
+          "map50": 0.995,
+          "map50_95": 0.7889
+        },
+        "OBJ008": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.789,
+          "recall": 0.8021,
+          "map50": 0.8365,
+          "map50_95": 0.6258
+        },
+        "OBJ009": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9507,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.6854
+        },
+        "OBJ010": {
+          "images": 14,
+          "instances": 28,
+          "precision": 0.8868,
+          "recall": 0.8401,
+          "map50": 0.8676,
+          "map50_95": 0.386
+        },
+        "OBJ011": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9228,
+          "recall": 0.8536,
+          "map50": 0.9103,
+          "map50_95": 0.6686
+        },
+        "OBJ012": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.916,
+          "recall": 0.9286,
+          "map50": 0.9428,
+          "map50_95": 0.7954
+        },
+        "OBJ013": {
+          "images": 14,
+          "instances": 14,
+          "precision": 1.0,
+          "recall": 0.6926,
+          "map50": 0.8887,
+          "map50_95": 0.4373
+        },
+        "OBJ014": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.5501,
+          "recall": 0.5,
+          "map50": 0.5798,
+          "map50_95": 0.3302
+        },
+        "OBJ015": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9702,
+          "recall": 0.9286,
+          "map50": 0.9766,
+          "map50_95": 0.6699
+        },
+        "OBJ016": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9606,
+          "recall": 0.8571,
+          "map50": 0.8665,
+          "map50_95": 0.5976
+        },
+        "OBJ017": {
+          "images": 16,
+          "instances": 16,
+          "precision": 1.0,
+          "recall": 0.958,
+          "map50": 0.995,
+          "map50_95": 0.7409
+        },
+        "OBJ018": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9787,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7492
+        },
+        "OBJ019": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.975,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7945
+        },
+        "OBJ020": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.919,
+          "recall": 0.8122,
+          "map50": 0.9511,
+          "map50_95": 0.6058
+        },
+        "OBJ021": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9982,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.6561
+        },
+        "OBJ022": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9753,
+          "recall": 0.9286,
+          "map50": 0.9903,
+          "map50_95": 0.7695
+        },
+        "OBJ023": {
+          "images": 13,
+          "instances": 13,
+          "precision": 0.914,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8183
+        },
+        "OBJ024": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9804,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7448
+        },
+        "OBJ025": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9915,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7336
+        },
+        "OBJ026": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9037,
+          "recall": 0.9286,
+          "map50": 0.8589,
+          "map50_95": 0.6244
+        },
+        "OBJ027": {
+          "images": 17,
+          "instances": 18,
+          "precision": 0.8539,
+          "recall": 1.0,
+          "map50": 0.9839,
+          "map50_95": 0.6157
+        },
+        "OBJ028": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9561,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7111
+        },
+        "OBJ029": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9491,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.907
+        },
+        "OBJ030": {
+          "images": 14,
+          "instances": 14,
+          "precision": 1.0,
+          "recall": 0.9508,
+          "map50": 0.995,
+          "map50_95": 0.6948
+        },
+        "OBJ031": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.8611,
+          "recall": 0.8866,
+          "map50": 0.9063,
+          "map50_95": 0.5402
+        },
+        "OBJ032": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9555,
+          "recall": 0.9286,
+          "map50": 0.9826,
+          "map50_95": 0.6289
+        },
+        "OBJ033": {
+          "images": 14,
+          "instances": 14,
+          "precision": 1.0,
+          "recall": 0.9776,
+          "map50": 0.995,
+          "map50_95": 0.7096
+        },
+        "OBJ034": {
+          "images": 13,
+          "instances": 13,
+          "precision": 0.521,
+          "recall": 0.4615,
+          "map50": 0.5428,
+          "map50_95": 0.2061
+        },
+        "OBJ035": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.8657,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.6684
+        },
+        "OBJ036": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9844,
+          "recall": 0.8571,
+          "map50": 0.9085,
+          "map50_95": 0.7574
+        },
+        "OBJ037": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9127,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.6409
+        },
+        "OBJ038": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9075,
+          "recall": 0.9286,
+          "map50": 0.969,
+          "map50_95": 0.6547
+        },
+        "OBJ039": {
+          "images": 19,
+          "instances": 19,
+          "precision": 0.8984,
+          "recall": 0.8421,
+          "map50": 0.9315,
+          "map50_95": 0.5996
+        },
+        "OBJ040": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9746,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.6504
+        },
+        "OBJ041": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9793,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7374
+        },
+        "OBJ042": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.867,
+          "recall": 0.8571,
+          "map50": 0.855,
+          "map50_95": 0.6116
+        },
+        "OBJ043": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.918,
+          "recall": 0.9286,
+          "map50": 0.9149,
+          "map50_95": 0.6465
+        },
+        "OBJ044": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.941,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.6718
+        },
+        "OBJ045": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.8528,
+          "recall": 0.7857,
+          "map50": 0.8562,
+          "map50_95": 0.7411
+        },
+        "OBJ046": {
+          "images": 14,
+          "instances": 14,
+          "precision": 1.0,
+          "recall": 0.8342,
+          "map50": 0.9575,
+          "map50_95": 0.5174
+        },
+        "OBJ047": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9865,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7225
+        },
+        "OBJ048": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9786,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.6486
+        },
+        "OBJ049": {
+          "images": 15,
+          "instances": 15,
+          "precision": 0.9654,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.6081
+        },
+        "OBJ050": {
+          "images": 13,
+          "instances": 13,
+          "precision": 0.917,
+          "recall": 0.8502,
+          "map50": 0.9188,
+          "map50_95": 0.7046
+        },
+        "OBJ051": {
+          "images": 18,
+          "instances": 18,
+          "precision": 1.0,
+          "recall": 0.9986,
+          "map50": 0.995,
+          "map50_95": 0.7404
+        },
+        "OBJ052": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9097,
+          "recall": 0.7857,
+          "map50": 0.852,
+          "map50_95": 0.6408
+        },
+        "OBJ053": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9708,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8685
+        },
+        "OBJ054": {
+          "images": 13,
+          "instances": 13,
+          "precision": 0.8598,
+          "recall": 0.9231,
+          "map50": 0.9127,
+          "map50_95": 0.7223
+        },
+        "OBJ055": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9764,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.87
+        },
+        "OBJ056": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.993,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7922
+        },
+        "OBJ057": {
+          "images": 14,
+          "instances": 15,
+          "precision": 0.8287,
+          "recall": 0.8667,
+          "map50": 0.9508,
+          "map50_95": 0.7326
+        },
+        "OBJ058": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9816,
+          "recall": 0.9286,
+          "map50": 0.9862,
+          "map50_95": 0.7644
+        },
+        "OBJ059": {
+          "images": 16,
+          "instances": 16,
+          "precision": 0.8786,
+          "recall": 0.75,
+          "map50": 0.7916,
+          "map50_95": 0.5617
+        },
+        "OBJ060": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9301,
+          "recall": 0.9286,
+          "map50": 0.9903,
+          "map50_95": 0.7573
+        },
+        "OBJ061": {
+          "images": 16,
+          "instances": 16,
+          "precision": 0.836,
+          "recall": 0.6379,
+          "map50": 0.7736,
+          "map50_95": 0.496
+        },
+        "OBJ062": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.8634,
+          "recall": 0.7143,
+          "map50": 0.8586,
+          "map50_95": 0.6017
+        },
+        "OBJ063": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.8527,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8094
+        },
+        "OBJ064": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9929,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8007
+        },
+        "OBJ065": {
+          "images": 14,
+          "instances": 14,
+          "precision": 1.0,
+          "recall": 0.7602,
+          "map50": 0.7975,
+          "map50_95": 0.4178
+        },
+        "OBJ066": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.929,
+          "recall": 0.935,
+          "map50": 0.9903,
+          "map50_95": 0.779
+        },
+        "OBJ067": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.8673,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.778
+        },
+        "OBJ068": {
+          "images": 13,
+          "instances": 13,
+          "precision": 1.0,
+          "recall": 0.7411,
+          "map50": 0.9819,
+          "map50_95": 0.66
+        },
+        "OBJ069": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.998,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.6806
+        },
+        "OBJ070": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9923,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7116
+        },
+        "OBJ071": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9765,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.6433
+        },
+        "OBJ072": {
+          "images": 14,
+          "instances": 14,
+          "precision": 1.0,
+          "recall": 0.8522,
+          "map50": 0.9501,
+          "map50_95": 0.6004
+        },
+        "OBJ073": {
+          "images": 14,
+          "instances": 14,
+          "precision": 0.9332,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8579
+        }
+      }
+    },
+    "test_multi": {
+      "precision": 0.9608,
+      "recall": 0.9387,
+      "map50": 0.9598,
+      "map50_95": 0.7537,
+      "speed_ms_per_image": {
+        "preprocess": 0.9720620001566462,
+        "inference": 7.593019571421402,
+        "loss": 0.0004702142073905894,
+        "postprocess": 1.0431209998205304
+      },
+      "per_class": {
+        "OBJ001": {
+          "images": 117,
+          "instances": 117,
+          "precision": 1.0,
+          "recall": 0.9999,
+          "map50": 0.995,
+          "map50_95": 0.872
+        },
+        "OBJ002": {
+          "images": 106,
+          "instances": 108,
+          "precision": 0.9773,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.788
+        },
+        "OBJ003": {
+          "images": 91,
+          "instances": 91,
+          "precision": 0.9453,
+          "recall": 0.9231,
+          "map50": 0.9758,
+          "map50_95": 0.7088
+        },
+        "OBJ004": {
+          "images": 102,
+          "instances": 102,
+          "precision": 0.98,
+          "recall": 0.96,
+          "map50": 0.9933,
+          "map50_95": 0.7404
+        },
+        "OBJ005": {
+          "images": 121,
+          "instances": 121,
+          "precision": 0.9848,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8776
+        },
+        "OBJ006": {
+          "images": 109,
+          "instances": 109,
+          "precision": 0.999,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8007
+        },
+        "OBJ007": {
+          "images": 118,
+          "instances": 119,
+          "precision": 0.9991,
+          "recall": 0.958,
+          "map50": 0.9695,
+          "map50_95": 0.7745
+        },
+        "OBJ008": {
+          "images": 124,
+          "instances": 124,
+          "precision": 0.9013,
+          "recall": 1.0,
+          "map50": 0.993,
+          "map50_95": 0.86
+        },
+        "OBJ009": {
+          "images": 117,
+          "instances": 117,
+          "precision": 0.9886,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.6815
+        },
+        "OBJ010": {
+          "images": 87,
+          "instances": 151,
+          "precision": 0.9321,
+          "recall": 0.9088,
+          "map50": 0.9245,
+          "map50_95": 0.5321
+        },
+        "OBJ011": {
+          "images": 116,
+          "instances": 116,
+          "precision": 0.8828,
+          "recall": 0.931,
+          "map50": 0.9108,
+          "map50_95": 0.6816
+        },
+        "OBJ012": {
+          "images": 103,
+          "instances": 103,
+          "precision": 0.9108,
+          "recall": 0.932,
+          "map50": 0.969,
+          "map50_95": 0.8252
+        },
+        "OBJ013": {
+          "images": 101,
+          "instances": 101,
+          "precision": 0.9564,
+          "recall": 0.652,
+          "map50": 0.7876,
+          "map50_95": 0.5016
+        },
+        "OBJ014": {
+          "images": 112,
+          "instances": 112,
+          "precision": 0.724,
+          "recall": 0.843,
+          "map50": 0.8064,
+          "map50_95": 0.5901
+        },
+        "OBJ015": {
+          "images": 113,
+          "instances": 113,
+          "precision": 0.9953,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7842
+        },
+        "OBJ016": {
+          "images": 105,
+          "instances": 105,
+          "precision": 0.9813,
+          "recall": 0.8952,
+          "map50": 0.9024,
+          "map50_95": 0.6732
+        },
+        "OBJ017": {
+          "images": 99,
+          "instances": 99,
+          "precision": 1.0,
+          "recall": 0.9449,
+          "map50": 0.9941,
+          "map50_95": 0.8008
+        },
+        "OBJ018": {
+          "images": 102,
+          "instances": 102,
+          "precision": 0.9942,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7985
+        },
+        "OBJ019": {
+          "images": 103,
+          "instances": 103,
+          "precision": 0.9952,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.9044
+        },
+        "OBJ020": {
+          "images": 118,
+          "instances": 118,
+          "precision": 1.0,
+          "recall": 0.8547,
+          "map50": 0.9613,
+          "map50_95": 0.7166
+        },
+        "OBJ021": {
+          "images": 109,
+          "instances": 109,
+          "precision": 0.9879,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7763
+        },
+        "OBJ022": {
+          "images": 129,
+          "instances": 129,
+          "precision": 0.992,
+          "recall": 0.9922,
+          "map50": 0.995,
+          "map50_95": 0.8897
+        },
+        "OBJ023": {
+          "images": 107,
+          "instances": 107,
+          "precision": 0.9877,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8128
+        },
+        "OBJ024": {
+          "images": 105,
+          "instances": 105,
+          "precision": 0.9953,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7942
+        },
+        "OBJ025": {
+          "images": 98,
+          "instances": 98,
+          "precision": 0.9777,
+          "recall": 0.9898,
+          "map50": 0.9914,
+          "map50_95": 0.8106
+        },
+        "OBJ026": {
+          "images": 114,
+          "instances": 114,
+          "precision": 0.9192,
+          "recall": 0.8984,
+          "map50": 0.9024,
+          "map50_95": 0.69
+        },
+        "OBJ027": {
+          "images": 129,
+          "instances": 137,
+          "precision": 0.9506,
+          "recall": 0.9832,
+          "map50": 0.969,
+          "map50_95": 0.6844
+        },
+        "OBJ028": {
+          "images": 98,
+          "instances": 98,
+          "precision": 0.9981,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8426
+        },
+        "OBJ029": {
+          "images": 111,
+          "instances": 111,
+          "precision": 0.9969,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.9136
+        },
+        "OBJ030": {
+          "images": 102,
+          "instances": 102,
+          "precision": 0.9962,
+          "recall": 0.9902,
+          "map50": 0.995,
+          "map50_95": 0.8634
+        },
+        "OBJ031": {
+          "images": 109,
+          "instances": 109,
+          "precision": 0.9049,
+          "recall": 0.8899,
+          "map50": 0.9412,
+          "map50_95": 0.6046
+        },
+        "OBJ032": {
+          "images": 119,
+          "instances": 119,
+          "precision": 0.9818,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.6436
+        },
+        "OBJ033": {
+          "images": 101,
+          "instances": 101,
+          "precision": 0.9425,
+          "recall": 0.9703,
+          "map50": 0.9926,
+          "map50_95": 0.7478
+        },
+        "OBJ034": {
+          "images": 108,
+          "instances": 108,
+          "precision": 0.7177,
+          "recall": 0.4537,
+          "map50": 0.5997,
+          "map50_95": 0.354
+        },
+        "OBJ035": {
+          "images": 99,
+          "instances": 99,
+          "precision": 0.9808,
+          "recall": 0.9596,
+          "map50": 0.9576,
+          "map50_95": 0.7678
+        },
+        "OBJ036": {
+          "images": 107,
+          "instances": 107,
+          "precision": 1.0,
+          "recall": 0.8298,
+          "map50": 0.9436,
+          "map50_95": 0.8185
+        },
+        "OBJ037": {
+          "images": 109,
+          "instances": 109,
+          "precision": 0.9429,
+          "recall": 1.0,
+          "map50": 0.9936,
+          "map50_95": 0.7247
+        },
+        "OBJ038": {
+          "images": 105,
+          "instances": 105,
+          "precision": 0.9448,
+          "recall": 0.9781,
+          "map50": 0.9916,
+          "map50_95": 0.7255
+        },
+        "OBJ039": {
+          "images": 135,
+          "instances": 135,
+          "precision": 0.9117,
+          "recall": 0.9185,
+          "map50": 0.9468,
+          "map50_95": 0.6724
+        },
+        "OBJ040": {
+          "images": 111,
+          "instances": 111,
+          "precision": 0.991,
+          "recall": 0.9975,
+          "map50": 0.995,
+          "map50_95": 0.7734
+        },
+        "OBJ041": {
+          "images": 92,
+          "instances": 92,
+          "precision": 0.9814,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8088
+        },
+        "OBJ042": {
+          "images": 118,
+          "instances": 118,
+          "precision": 0.9643,
+          "recall": 0.9168,
+          "map50": 0.9468,
+          "map50_95": 0.7026
+        },
+        "OBJ043": {
+          "images": 101,
+          "instances": 101,
+          "precision": 0.9082,
+          "recall": 0.9208,
+          "map50": 0.8813,
+          "map50_95": 0.7003
+        },
+        "OBJ044": {
+          "images": 101,
+          "instances": 101,
+          "precision": 0.9954,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7487
+        },
+        "OBJ045": {
+          "images": 108,
+          "instances": 108,
+          "precision": 0.9725,
+          "recall": 0.8518,
+          "map50": 0.9011,
+          "map50_95": 0.7094
+        },
+        "OBJ046": {
+          "images": 104,
+          "instances": 104,
+          "precision": 0.9886,
+          "recall": 0.8341,
+          "map50": 0.8782,
+          "map50_95": 0.5763
+        },
+        "OBJ047": {
+          "images": 125,
+          "instances": 125,
+          "precision": 0.947,
+          "recall": 0.9996,
+          "map50": 0.981,
+          "map50_95": 0.7518
+        },
+        "OBJ048": {
+          "images": 96,
+          "instances": 96,
+          "precision": 0.9917,
+          "recall": 0.9896,
+          "map50": 0.9949,
+          "map50_95": 0.6895
+        },
+        "OBJ049": {
+          "images": 110,
+          "instances": 110,
+          "precision": 0.9967,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.6995
+        },
+        "OBJ050": {
+          "images": 117,
+          "instances": 117,
+          "precision": 1.0,
+          "recall": 0.8356,
+          "map50": 0.9849,
+          "map50_95": 0.7629
+        },
+        "OBJ051": {
+          "images": 122,
+          "instances": 123,
+          "precision": 0.9881,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.7854
+        },
+        "OBJ052": {
+          "images": 100,
+          "instances": 100,
+          "precision": 0.8375,
+          "recall": 0.7733,
+          "map50": 0.8788,
+          "map50_95": 0.7003
+        },
+        "OBJ053": {
+          "images": 106,
+          "instances": 106,
+          "precision": 0.9779,
+          "recall": 0.9906,
+          "map50": 0.9948,
+          "map50_95": 0.8926
+        },
+        "OBJ054": {
+          "images": 100,
+          "instances": 100,
+          "precision": 0.9476,
+          "recall": 0.9051,
+          "map50": 0.9437,
+          "map50_95": 0.761
+        },
+        "OBJ055": {
+          "images": 98,
+          "instances": 98,
+          "precision": 0.9989,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8795
+        },
+        "OBJ056": {
+          "images": 108,
+          "instances": 108,
+          "precision": 1.0,
+          "recall": 0.958,
+          "map50": 0.9946,
+          "map50_95": 0.7827
+        },
+        "OBJ057": {
+          "images": 116,
+          "instances": 120,
+          "precision": 0.7435,
+          "recall": 0.8583,
+          "map50": 0.8012,
+          "map50_95": 0.6503
+        },
+        "OBJ058": {
+          "images": 115,
+          "instances": 115,
+          "precision": 0.9911,
+          "recall": 0.9699,
+          "map50": 0.9946,
+          "map50_95": 0.7941
+        },
+        "OBJ059": {
+          "images": 114,
+          "instances": 114,
+          "precision": 0.9681,
+          "recall": 0.8772,
+          "map50": 0.911,
+          "map50_95": 0.6649
+        },
+        "OBJ060": {
+          "images": 110,
+          "instances": 110,
+          "precision": 0.9715,
+          "recall": 0.9289,
+          "map50": 0.9892,
+          "map50_95": 0.849
+        },
+        "OBJ061": {
+          "images": 125,
+          "instances": 127,
+          "precision": 1.0,
+          "recall": 0.7722,
+          "map50": 0.8978,
+          "map50_95": 0.6565
+        },
+        "OBJ062": {
+          "images": 96,
+          "instances": 96,
+          "precision": 0.9002,
+          "recall": 0.8542,
+          "map50": 0.9464,
+          "map50_95": 0.7455
+        },
+        "OBJ063": {
+          "images": 109,
+          "instances": 109,
+          "precision": 0.9869,
+          "recall": 0.9908,
+          "map50": 0.9937,
+          "map50_95": 0.8494
+        },
+        "OBJ064": {
+          "images": 90,
+          "instances": 90,
+          "precision": 1.0,
+          "recall": 0.9995,
+          "map50": 0.995,
+          "map50_95": 0.8547
+        },
+        "OBJ065": {
+          "images": 104,
+          "instances": 104,
+          "precision": 0.9452,
+          "recall": 0.9231,
+          "map50": 0.9504,
+          "map50_95": 0.6745
+        },
+        "OBJ066": {
+          "images": 100,
+          "instances": 100,
+          "precision": 0.9303,
+          "recall": 0.9345,
+          "map50": 0.9824,
+          "map50_95": 0.8034
+        },
+        "OBJ067": {
+          "images": 97,
+          "instances": 97,
+          "precision": 0.9957,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8491
+        },
+        "OBJ068": {
+          "images": 116,
+          "instances": 116,
+          "precision": 0.9783,
+          "recall": 0.9052,
+          "map50": 0.9579,
+          "map50_95": 0.7454
+        },
+        "OBJ069": {
+          "images": 108,
+          "instances": 108,
+          "precision": 1.0,
+          "recall": 0.9826,
+          "map50": 0.995,
+          "map50_95": 0.867
+        },
+        "OBJ070": {
+          "images": 100,
+          "instances": 100,
+          "precision": 0.9874,
+          "recall": 0.99,
+          "map50": 0.9936,
+          "map50_95": 0.7786
+        },
+        "OBJ071": {
+          "images": 111,
+          "instances": 111,
+          "precision": 0.9988,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.8424
+        },
+        "OBJ072": {
+          "images": 86,
+          "instances": 86,
+          "precision": 0.987,
+          "recall": 0.907,
+          "map50": 0.988,
+          "map50_95": 0.743
+        },
+        "OBJ073": {
+          "images": 96,
+          "instances": 96,
+          "precision": 0.9942,
+          "recall": 1.0,
+          "map50": 0.995,
+          "map50_95": 0.876
+        }
+      }
+    }
+  }
+}

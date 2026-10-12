@@ -1,0 +1,21 @@
+{
+  "model": "resnet50",
+  "test_images": 1028,
+  "top1_acc": 0.9795719844357976,
+  "top1_ci95": [
+    0.969,
+    0.9866
+  ],
+  "top5_acc": 0.9961089494163424,
+  "top5_ci95": [
+    0.99,
+    0.9985
+  ],
+  "macro_precision": 0.9817025440313111,
+  "macro_recall": 0.9795743639921722,
+  "macro_f1": 0.9788544968626876,
+  "misclassified": 21,
+  "eval_device": "mps",
+  "eval_seconds": 7.7,
+  "checkpoint": "outputs/checkpoints/resnet50_best.pt"
+}

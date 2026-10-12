@@ -1,0 +1,22 @@
+{
+  "model": "resnet50",
+  "run": "resnet50_smoke",
+  "smoke_test": true,
+  "device": "mps",
+  "amp": false,
+  "num_classes": 10,
+  "train_images": 675,
+  "val_images": 142,
+  "params_total": 23528522,
+  "params_trainable_last_phase": 14985226,
+  "batch_size": 64,
+  "lr": 0.0001,
+  "head_lr": 0.001,
+  "epochs_planned": 2,
+  "epochs_run": 2,
+  "early_stopped": false,
+  "best_epoch": 2,
+  "best_val_acc": 0.971830985915493,
+  "train_time_s": 16.2,
+  "checkpoint": "outputs/checkpoints/resnet50_smoke_best.pt"
+}

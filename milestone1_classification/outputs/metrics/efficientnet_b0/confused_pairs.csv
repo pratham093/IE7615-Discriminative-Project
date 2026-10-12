@@ -1,0 +1,11 @@
+rank,true_id,true_name,predicted_id,predicted_name,count,share_of_true_class
+1,OBJ061,Card wallet,OBJ059,Comb,4,0.2857
+2,OBJ012,Computer Keyboard,OBJ003,NoteBook,1,0.0714
+3,OBJ013,Mobile phone,OBJ042,Mouth guard case,1,0.0714
+4,OBJ013,Mobile phone,OBJ055,Scientific Calculator,1,0.0714
+5,OBJ013,Mobile phone,OBJ058,Footstool,1,0.0714
+6,OBJ014,Sunglasses,OBJ045,Wayfarer Sunglasses,1,0.0714
+7,OBJ017,Controller,OBJ009,Marshall Speaker,1,0.0625
+8,OBJ017,Controller,OBJ020,Airpod,1,0.0625
+9,OBJ020,Airpod,OBJ063,Measuring Bottle,1,0.0714
+10,OBJ032,Sound Card,OBJ063,Measuring Bottle,1,0.0714

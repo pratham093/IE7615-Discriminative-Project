@@ -1,0 +1,6 @@
+rank,object_id,object_name,test_images,accuracy,precision,f1,most_common_mistake
+1,OBJ034,Table Tennis Racket,14,0.6429,1.0,0.7826,OBJ018 (Rubiks cube) x1
+2,OBJ061,Card wallet,14,0.7143,0.9091,0.8,OBJ059 (Comb) x4
+3,OBJ042,Mouth guard case,14,0.7857,0.9167,0.8462,OBJ027 (Tennis ball) x1
+4,OBJ013,Mobile phone,14,0.7857,1.0,0.88,OBJ055 (Scientific Calculator) x1
+5,OBJ057,Power Bank,14,0.7857,1.0,0.88,OBJ004 (Toy Car) x1

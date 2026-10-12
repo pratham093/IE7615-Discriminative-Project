@@ -1,0 +1,15 @@
+__pycache__/
+.DS_Store
+.venv/
+IE7615 Deep Learning for AI/
+milestone1_classification/outputs/cache/
+milestone1_classification/outputs/checkpoints/
+milestone1_classification/outputs/logs/
+milestone1_classification/outputs/yolo_data/
+milestone1_classification/outputs/yolo_runs/
+milestone2_detection/data/
+milestone2_detection/runs/
+milestone2_detection/predictions/
+milestone2_detection/outputs/boxes/
+*.pt
+!milestone2_detection/results/yolov8s_best.pt

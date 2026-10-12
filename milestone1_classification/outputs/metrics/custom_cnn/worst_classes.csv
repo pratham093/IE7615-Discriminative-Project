@@ -1,0 +1,6 @@
+rank,object_id,object_name,test_images,accuracy,precision,f1,most_common_mistake
+1,OBJ013,Mobile phone,14,0.4286,0.3158,0.3636,OBJ014 (Sunglasses) x3
+2,OBJ052,Spoon,14,0.4286,0.6667,0.5217,OBJ038 (Perfume bottle) x2
+3,OBJ016,Sandisk Portable SSD,14,0.5,0.5833,0.5385,OBJ007 (Apple) x2
+4,OBJ038,Perfume bottle,14,0.5,0.6364,0.56,OBJ049 (Pickleball bat) x1
+5,OBJ054,Purse,14,0.5,0.7,0.5833,OBJ061 (Card wallet) x3

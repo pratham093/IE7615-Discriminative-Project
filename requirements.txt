@@ -1,0 +1,10 @@
+numpy
+pandas
+Pillow
+scikit-learn
+matplotlib
+torch
+torchvision
+ultralytics
+imagehash
+psutil

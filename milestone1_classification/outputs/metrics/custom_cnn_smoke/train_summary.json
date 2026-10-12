@@ -1,0 +1,22 @@
+{
+  "model": "custom_cnn",
+  "run": "custom_cnn_smoke",
+  "smoke_test": true,
+  "device": "mps",
+  "amp": false,
+  "num_classes": 10,
+  "train_images": 675,
+  "val_images": 142,
+  "params_total": 4719338,
+  "params_trainable_last_phase": 4719338,
+  "batch_size": 64,
+  "lr": 0.001,
+  "head_lr": null,
+  "epochs_planned": 2,
+  "epochs_run": 2,
+  "early_stopped": false,
+  "best_epoch": 2,
+  "best_val_acc": 0.323943661971831,
+  "train_time_s": 25.0,
+  "checkpoint": "outputs/checkpoints/custom_cnn_smoke_best.pt"
+}

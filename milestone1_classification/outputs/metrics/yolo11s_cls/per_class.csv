@@ -1,0 +1,74 @@
+object_id,object_name,test_images,correct,accuracy,precision,f1
+OBJ001,Basketball,14,14,1.0,1.0,1.0
+OBJ002,water bottle,14,14,1.0,1.0,1.0
+OBJ003,NoteBook,14,14,1.0,1.0,1.0
+OBJ004,Toy Car,15,15,1.0,0.9375,0.9677
+OBJ005,Computer mouse,15,15,1.0,0.9375,0.9677
+OBJ006,Capybara Toy,14,14,1.0,1.0,1.0
+OBJ007,Apple,14,14,1.0,1.0,1.0
+OBJ008,Cat,14,14,1.0,1.0,1.0
+OBJ009,Marshall Speaker,14,14,1.0,1.0,1.0
+OBJ010,Nike sneakers,14,14,1.0,0.9333,0.9655
+OBJ011,mug,14,14,1.0,1.0,1.0
+OBJ012,Computer Keyboard,14,14,1.0,0.8235,0.9032
+OBJ013,Mobile phone,14,10,0.7143,1.0,0.8333
+OBJ014,Sunglasses,14,14,1.0,1.0,1.0
+OBJ015,Water Tumbler,14,14,1.0,1.0,1.0
+OBJ016,Sandisk Portable SSD,14,14,1.0,1.0,1.0
+OBJ017,Controller,16,14,0.875,1.0,0.9333
+OBJ018,Rubiks cube,14,13,0.9286,1.0,0.963
+OBJ019,Plant,14,14,1.0,1.0,1.0
+OBJ020,Airpod,14,13,0.9286,0.9286,0.9286
+OBJ021,Toy Bunny,14,14,1.0,0.875,0.9333
+OBJ022,Guitar,14,14,1.0,1.0,1.0
+OBJ023,Bracelet,13,13,1.0,1.0,1.0
+OBJ024,Plush doll,14,14,1.0,1.0,1.0
+OBJ025,Watch,14,14,1.0,1.0,1.0
+OBJ026,Red Sox Cap,14,14,1.0,1.0,1.0
+OBJ027,Tennis ball,14,14,1.0,1.0,1.0
+OBJ028,banana,14,14,1.0,1.0,1.0
+OBJ029,Orange,14,14,1.0,1.0,1.0
+OBJ030,Tennis racket,14,14,1.0,1.0,1.0
+OBJ031,UNO card box,14,14,1.0,0.9333,0.9655
+OBJ032,Sound Card,14,14,1.0,1.0,1.0
+OBJ033,Duck,14,13,0.9286,1.0,0.963
+OBJ034,Table Tennis Racket,14,10,0.7143,1.0,0.8333
+OBJ035,Badminton racket,14,14,1.0,0.9333,0.9655
+OBJ036,Pencil case,14,14,1.0,1.0,1.0
+OBJ037,Candle,14,14,1.0,1.0,1.0
+OBJ038,Perfume bottle,14,13,0.9286,1.0,0.963
+OBJ039,Scissors,14,14,1.0,1.0,1.0
+OBJ040,Clutcher,14,14,1.0,1.0,1.0
+OBJ041,Table fan,14,14,1.0,1.0,1.0
+OBJ042,Mouth guard case,14,13,0.9286,0.9286,0.9286
+OBJ043,Swimming Goggels,14,14,1.0,1.0,1.0
+OBJ044,Anime Figurine,14,14,1.0,1.0,1.0
+OBJ045,Wayfarer Sunglasses,14,13,0.9286,1.0,0.963
+OBJ046,iWatch,14,14,1.0,1.0,1.0
+OBJ047,Backpack,14,14,1.0,0.9333,0.9655
+OBJ048,Wireless powerbank,14,14,1.0,1.0,1.0
+OBJ049,Pickleball bat,15,15,1.0,0.9375,0.9677
+OBJ050,Hairbrush,14,14,1.0,1.0,1.0
+OBJ051,tissue,16,16,1.0,1.0,1.0
+OBJ052,Spoon,14,14,1.0,0.9333,0.9655
+OBJ053,Moisturizer,14,14,1.0,1.0,1.0
+OBJ054,Purse,14,14,1.0,1.0,1.0
+OBJ055,Scientific Calculator,14,14,1.0,1.0,1.0
+OBJ056,Trader Joe's Bag,14,14,1.0,1.0,1.0
+OBJ057,Power Bank,14,13,0.9286,1.0,0.963
+OBJ058,Footstool,14,14,1.0,0.9333,0.9655
+OBJ059,Comb,14,14,1.0,0.7368,0.8485
+OBJ060,Sleep Mask,14,14,1.0,1.0,1.0
+OBJ061,Card wallet,14,9,0.6429,1.0,0.7826
+OBJ062,Headphones,14,13,0.9286,0.9286,0.9286
+OBJ063,Measuring Bottle,14,14,1.0,0.9333,0.9655
+OBJ064,RGB Projector,14,14,1.0,1.0,1.0
+OBJ065,Analog watch,14,14,1.0,1.0,1.0
+OBJ066,hair oil,14,14,1.0,1.0,1.0
+OBJ067,Men's Wallet,14,14,1.0,1.0,1.0
+OBJ068,Neck Pillow,14,14,1.0,1.0,1.0
+OBJ069,knife,14,14,1.0,1.0,1.0
+OBJ070,Astronaut projector,14,14,1.0,1.0,1.0
+OBJ071,Sloth Plushie,14,14,1.0,1.0,1.0
+OBJ072,Dog,14,14,1.0,1.0,1.0
+OBJ073,Bowl,14,14,1.0,1.0,1.0

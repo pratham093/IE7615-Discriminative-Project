@@ -1,0 +1,33 @@
+{
+  "model": "custom_cnn",
+  "run": "custom_cnn",
+  "smoke_test": false,
+  "hardware": {
+    "device": "cuda",
+    "cpu_count": 20,
+    "ram_gb": 16.6,
+    "os": "Windows-10-10.0.26200-SP0",
+    "torch": "2.14.1+cu126",
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "gpu_memory_gb": 8.6,
+    "cuda": "12.6"
+  },
+  "dataloader_workers": 8,
+  "device": "cuda",
+  "amp": true,
+  "num_classes": 73,
+  "train_images": 4886,
+  "val_images": 1028,
+  "params_total": 4751657,
+  "params_trainable_last_phase": 4751657,
+  "batch_size": 64,
+  "lr": 0.001,
+  "head_lr": null,
+  "epochs_planned": 40,
+  "epochs_run": 40,
+  "early_stopped": false,
+  "best_epoch": 37,
+  "best_val_acc": 0.8453307392996109,
+  "train_time_s": 652.1,
+  "checkpoint": "outputs\\checkpoints\\custom_cnn_best.pt"
+}

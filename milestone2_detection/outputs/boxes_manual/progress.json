@@ -1,0 +1,523 @@
+{
+ "updated_utc": "2026-10-12T02:48:27+00:00",
+ "total": {
+  "photos": 6942,
+  "done": 6901,
+  "excluded": 41,
+  "boxes": 7157,
+  "other": 128
+ },
+ "per_class": {
+  "OBJ001": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ002": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ003": {
+   "photos": 95,
+   "done": 91,
+   "excluded": 4,
+   "boxes": 93,
+   "other": 2
+  },
+  "OBJ004": {
+   "photos": 100,
+   "done": 96,
+   "excluded": 4,
+   "boxes": 111,
+   "other": 0
+  },
+  "OBJ005": {
+   "photos": 99,
+   "done": 98,
+   "excluded": 1,
+   "boxes": 98,
+   "other": 0
+  },
+  "OBJ006": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ007": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 126,
+   "other": 31
+  },
+  "OBJ008": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 96,
+   "other": 0
+  },
+  "OBJ009": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 97,
+   "other": 2
+  },
+  "OBJ010": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 186,
+   "other": 0
+  },
+  "OBJ011": {
+   "photos": 93,
+   "done": 93,
+   "excluded": 0,
+   "boxes": 94,
+   "other": 0
+  },
+  "OBJ012": {
+   "photos": 95,
+   "done": 94,
+   "excluded": 1,
+   "boxes": 94,
+   "other": 0
+  },
+  "OBJ013": {
+   "photos": 94,
+   "done": 91,
+   "excluded": 3,
+   "boxes": 95,
+   "other": 1
+  },
+  "OBJ014": {
+   "photos": 93,
+   "done": 93,
+   "excluded": 0,
+   "boxes": 93,
+   "other": 0
+  },
+  "OBJ015": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ016": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ017": {
+   "photos": 106,
+   "done": 106,
+   "excluded": 0,
+   "boxes": 106,
+   "other": 0
+  },
+  "OBJ018": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ019": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ020": {
+   "photos": 95,
+   "done": 94,
+   "excluded": 1,
+   "boxes": 94,
+   "other": 0
+  },
+  "OBJ021": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ022": {
+   "photos": 94,
+   "done": 94,
+   "excluded": 0,
+   "boxes": 94,
+   "other": 0
+  },
+  "OBJ023": {
+   "photos": 89,
+   "done": 89,
+   "excluded": 0,
+   "boxes": 89,
+   "other": 0
+  },
+  "OBJ024": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ025": {
+   "photos": 94,
+   "done": 94,
+   "excluded": 0,
+   "boxes": 94,
+   "other": 0
+  },
+  "OBJ026": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ027": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 99,
+   "other": 3
+  },
+  "OBJ028": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ029": {
+   "photos": 94,
+   "done": 93,
+   "excluded": 1,
+   "boxes": 93,
+   "other": 0
+  },
+  "OBJ030": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ031": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ032": {
+   "photos": 95,
+   "done": 94,
+   "excluded": 1,
+   "boxes": 94,
+   "other": 0
+  },
+  "OBJ033": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ034": {
+   "photos": 95,
+   "done": 94,
+   "excluded": 1,
+   "boxes": 94,
+   "other": 0
+  },
+  "OBJ035": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ036": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ037": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ038": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ039": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ040": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ041": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ042": {
+   "photos": 95,
+   "done": 94,
+   "excluded": 1,
+   "boxes": 134,
+   "other": 40
+  },
+  "OBJ043": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ044": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ045": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ046": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ047": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ048": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ049": {
+   "photos": 99,
+   "done": 99,
+   "excluded": 0,
+   "boxes": 99,
+   "other": 0
+  },
+  "OBJ050": {
+   "photos": 95,
+   "done": 93,
+   "excluded": 2,
+   "boxes": 93,
+   "other": 0
+  },
+  "OBJ051": {
+   "photos": 105,
+   "done": 105,
+   "excluded": 0,
+   "boxes": 105,
+   "other": 0
+  },
+  "OBJ052": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ053": {
+   "photos": 90,
+   "done": 90,
+   "excluded": 0,
+   "boxes": 90,
+   "other": 0
+  },
+  "OBJ054": {
+   "photos": 95,
+   "done": 93,
+   "excluded": 2,
+   "boxes": 95,
+   "other": 2
+  },
+  "OBJ055": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ056": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ057": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 104,
+   "other": 0
+  },
+  "OBJ058": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ059": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 125,
+   "other": 25
+  },
+  "OBJ060": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ061": {
+   "photos": 95,
+   "done": 85,
+   "excluded": 10,
+   "boxes": 98,
+   "other": 13
+  },
+  "OBJ062": {
+   "photos": 91,
+   "done": 91,
+   "excluded": 0,
+   "boxes": 91,
+   "other": 0
+  },
+  "OBJ063": {
+   "photos": 94,
+   "done": 94,
+   "excluded": 0,
+   "boxes": 94,
+   "other": 0
+  },
+  "OBJ064": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ065": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 104,
+   "other": 9
+  },
+  "OBJ066": {
+   "photos": 94,
+   "done": 94,
+   "excluded": 0,
+   "boxes": 94,
+   "other": 0
+  },
+  "OBJ067": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ068": {
+   "photos": 95,
+   "done": 88,
+   "excluded": 7,
+   "boxes": 88,
+   "other": 0
+  },
+  "OBJ069": {
+   "photos": 93,
+   "done": 91,
+   "excluded": 2,
+   "boxes": 91,
+   "other": 0
+  },
+  "OBJ070": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ071": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ072": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 95,
+   "other": 0
+  },
+  "OBJ073": {
+   "photos": 95,
+   "done": 95,
+   "excluded": 0,
+   "boxes": 97,
+   "other": 0
+  }
+ }
+}

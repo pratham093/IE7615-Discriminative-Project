@@ -1,0 +1,11 @@
+rank,true_id,true_name,predicted_id,predicted_name,count,share_of_true_class
+1,OBJ013,Mobile phone,OBJ014,Sunglasses,3,0.2143
+2,OBJ039,Scissors,OBJ014,Sunglasses,3,0.2143
+3,OBJ054,Purse,OBJ061,Card wallet,3,0.2143
+4,OBJ003,NoteBook,OBJ004,Toy Car,2,0.1429
+5,OBJ008,Cat,OBJ058,Footstool,2,0.1429
+6,OBJ013,Mobile phone,OBJ061,Card wallet,2,0.1429
+7,OBJ016,Sandisk Portable SSD,OBJ007,Apple,2,0.1429
+8,OBJ023,Bracelet,OBJ040,Clutcher,2,0.1538
+9,OBJ028,banana,OBJ006,Capybara Toy,2,0.1429
+10,OBJ030,Tennis racket,OBJ061,Card wallet,2,0.1429

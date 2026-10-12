@@ -1,0 +1,11 @@
+rank,true_id,true_name,predicted_id,predicted_name,count,share_of_true_class
+1,OBJ061,Card wallet,OBJ059,Comb,5,0.3571
+2,OBJ013,Mobile phone,OBJ012,Computer Keyboard,2,0.1429
+3,OBJ013,Mobile phone,OBJ021,Toy Bunny,1,0.0714
+4,OBJ013,Mobile phone,OBJ047,Backpack,1,0.0714
+5,OBJ017,Controller,OBJ042,Mouth guard case,1,0.0625
+6,OBJ017,Controller,OBJ049,Pickleball bat,1,0.0625
+7,OBJ018,Rubiks cube,OBJ031,UNO card box,1,0.0714
+8,OBJ020,Airpod,OBJ012,Computer Keyboard,1,0.0714
+9,OBJ033,Duck,OBJ035,Badminton racket,1,0.0714
+10,OBJ034,Table Tennis Racket,OBJ010,Nike sneakers,1,0.0714

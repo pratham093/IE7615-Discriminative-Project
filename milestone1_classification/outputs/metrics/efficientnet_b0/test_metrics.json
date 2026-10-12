@@ -1,0 +1,21 @@
+{
+  "model": "efficientnet_b0",
+  "test_images": 1028,
+  "top1_acc": 0.9688715953307393,
+  "top1_ci95": [
+    0.9564,
+    0.9779
+  ],
+  "top5_acc": 0.995136186770428,
+  "top5_ci95": [
+    0.9887,
+    0.9979
+  ],
+  "macro_precision": 0.9711211051460851,
+  "macro_recall": 0.9689334637964776,
+  "macro_f1": 0.9680017625580973,
+  "misclassified": 32,
+  "eval_device": "mps",
+  "eval_seconds": 5.5,
+  "checkpoint": "outputs/checkpoints/efficientnet_b0_best.pt"
+}
